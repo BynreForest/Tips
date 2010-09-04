@@ -1,18 +1,61 @@
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/main.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TipsAppDelegate.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/RootViewController.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TipEntity.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/NSObject+SBJSON.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/NSString+SBJSON.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJSON.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJsonBase.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJsonParser.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJsonWriter.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/JSONViewController.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TestViewController.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TipViewController.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/ioapi.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/mztools.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/unzip.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/zip.o
-/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/ZipArchive.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TipsAppDelegate.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/RootViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TipEntity.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/NSObject+SBJSON.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/NSString+SBJSON.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJSON.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJsonBase.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJsonParser.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SBJsonWriter.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/JSONViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TestViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TipViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/ioapi.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/mztools.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/unzip.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/zip.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/ZipArchive.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/GetSomeTest.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/BTDevice.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/BTDiscoveryViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/BTInquiryViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/BTstackCocoaAppDelegate.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/BTstackManager.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/main-FF2E5E03E40C5151.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/TestBTstackManager.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/inquiry.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/l2cap-server.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/mitm.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/rfcomm.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/test.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/EAGLView.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/EAGLViewController.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/WiiMoteOpenGLDemoAppDelegate.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/main-CB68D86D12EDFC6B.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/rotation.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/PatchBlueTool.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SpringBoardAccess-test.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SpringBoardAccess.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/SpringBoardAccessExtension.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/bt_control_iphone.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/btstack.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/daemon.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/hci.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/hci_cmds.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/hci_dump.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/hci_transport_h4.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/hci_transport_h5.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/hci_transport_usb.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/l2cap.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/l2cap_signaling.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/linked_list.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/platform_iphone.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/run_loop.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/run_loop_cocoa.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/run_loop_embedded.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/run_loop_posix.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/sdp.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/sdp_util.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/socket_connection.o
+/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo Test/Tips/build/Tips.build/Debug-iphonesimulator/Tips.build/Objects-normal/i386/utils.o

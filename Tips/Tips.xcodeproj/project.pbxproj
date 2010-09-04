@@ -23,6 +23,158 @@
 		D70C74D21232CF3900B288F6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C74CB1232CF3900B288F6 /* zip.c */; };
 		D70C74D31232CF3900B288F6 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = D70C74CE1232CF3900B288F6 /* ZipArchive.mm */; };
 		D70C74DD1232CF5100B288F6 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C74DC1232CF5100B288F6 /* libz.1.2.3.dylib */; };
+		D70C77221232DB1A00B288F6 /* GetSomeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77211232DB1A00B288F6 /* GetSomeTest.m */; };
+		D70C780E1232DB6000B288F6 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C77271232DB6000B288F6 /* libsubstrate.dylib */; };
+		D70C780F1232DB6000B288F6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D70C77281232DB6000B288F6 /* README */; };
+		D70C78101232DB6000B288F6 /* aclocal.m4 in Resources */ = {isa = PBXBuildFile; fileRef = D70C772A1232DB6000B288F6 /* aclocal.m4 */; };
+		D70C78111232DB6000B288F6 /* addCopyright.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C772B1232DB6000B288F6 /* addCopyright.sh */; };
+		D70C78121232DB6000B288F6 /* bootstrap.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C772C1232DB6000B288F6 /* bootstrap.sh */; };
+		D70C78131232DB6000B288F6 /* BTstackCocoa-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70C772E1232DB6000B288F6 /* BTstackCocoa-Info.plist */; };
+		D70C78141232DB6000B288F6 /* categories.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77361232DB6000B288F6 /* categories.pbxbtree */; };
+		D70C78151232DB6000B288F6 /* cdecls.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77371232DB6000B288F6 /* cdecls.pbxbtree */; };
+		D70C78161232DB6000B288F6 /* decls.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77381232DB6000B288F6 /* decls.pbxbtree */; };
+		D70C78171232DB6000B288F6 /* files.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77391232DB6000B288F6 /* files.pbxbtree */; };
+		D70C78181232DB6000B288F6 /* imports.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C773A1232DB6000B288F6 /* imports.pbxbtree */; };
+		D70C78191232DB6000B288F6 /* pbxindex.header in Resources */ = {isa = PBXBuildFile; fileRef = D70C773B1232DB6000B288F6 /* pbxindex.header */; };
+		D70C781A1232DB6000B288F6 /* protocols.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C773C1232DB6000B288F6 /* protocols.pbxbtree */; };
+		D70C781B1232DB6000B288F6 /* refs.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C773D1232DB6000B288F6 /* refs.pbxbtree */; };
+		D70C781C1232DB6000B288F6 /* control in Resources */ = {isa = PBXBuildFile; fileRef = D70C773F1232DB6000B288F6 /* control */; };
+		D70C781D1232DB6000B288F6 /* strings in Resources */ = {isa = PBXBuildFile; fileRef = D70C77401232DB6000B288F6 /* strings */; };
+		D70C781E1232DB6000B288F6 /* subclasses.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77411232DB6000B288F6 /* subclasses.pbxbtree */; };
+		D70C781F1232DB6000B288F6 /* symbols0.pbxsymbols in Resources */ = {isa = PBXBuildFile; fileRef = D70C77421232DB6000B288F6 /* symbols0.pbxsymbols */; };
+		D70C78201232DB6000B288F6 /* BTstackCocoa.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77451232DB6000B288F6 /* BTstackCocoa.dep */; };
+		D70C78211232DB6000B288F6 /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77461232DB6000B288F6 /* build-state.dat */; };
+		D70C78221232DB6000B288F6 /* BTstackCocoa.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77491232DB6000B288F6 /* BTstackCocoa.dep */; };
+		D70C78231232DB6000B288F6 /* BTstackCocoa~.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C774A1232DB6000B288F6 /* BTstackCocoa~.dep */; };
+		D70C78241232DB6000B288F6 /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C774B1232DB6000B288F6 /* build-state.dat */; };
+		D70C78251232DB6000B288F6 /* build-state~.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C774C1232DB6000B288F6 /* build-state~.dat */; };
+		D70C78261232DB6000B288F6 /* BTstackCocoa-all-target-headers.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C774F1232DB6000B288F6 /* BTstackCocoa-all-target-headers.hmap */; };
+		D70C78271232DB6000B288F6 /* BTstackCocoa-generated-files.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C77501232DB6000B288F6 /* BTstackCocoa-generated-files.hmap */; };
+		D70C78281232DB6000B288F6 /* BTstackCocoa-own-target-headers.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C77511232DB6000B288F6 /* BTstackCocoa-own-target-headers.hmap */; };
+		D70C78291232DB6000B288F6 /* BTstackCocoa-project-headers.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C77521232DB6000B288F6 /* BTstackCocoa-project-headers.hmap */; };
+		D70C782A1232DB6000B288F6 /* BTstackCocoa.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77531232DB6000B288F6 /* BTstackCocoa.dep */; };
+		D70C782B1232DB6000B288F6 /* BTstackCocoa.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C77541232DB6000B288F6 /* BTstackCocoa.hmap */; };
+		D70C782C1232DB6000B288F6 /* BTstackCocoa~.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77551232DB6000B288F6 /* BTstackCocoa~.dep */; };
+		D70C782D1232DB6000B288F6 /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77561232DB6000B288F6 /* build-state.dat */; };
+		D70C782E1232DB6000B288F6 /* build-state~.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77571232DB6000B288F6 /* build-state~.dat */; };
+		D70C782F1232DB6000B288F6 /* BTstackCocoa.LinkFileList in Resources */ = {isa = PBXBuildFile; fileRef = D70C775A1232DB6000B288F6 /* BTstackCocoa.LinkFileList */; };
+		D70C78301232DB6000B288F6 /* main.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C775B1232DB6000B288F6 /* main.o */; };
+		D70C78311232DB6000B288F6 /* BTstackCocoa.app in Resources */ = {isa = PBXBuildFile; fileRef = D70C775D1232DB6000B288F6 /* BTstackCocoa.app */; };
+		D70C78321232DB6000B288F6 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C775F1232DB6000B288F6 /* bluetooth.png */; };
+		D70C78331232DB6000B288F6 /* computer.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77601232DB6000B288F6 /* computer.png */; };
+		D70C78341232DB6000B288F6 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77611232DB6000B288F6 /* keyboard.png */; };
+		D70C78351232DB6000B288F6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70C77621232DB6000B288F6 /* LICENSE.txt */; };
+		D70C78361232DB6000B288F6 /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77631232DB6000B288F6 /* mouse.png */; };
+		D70C78371232DB6000B288F6 /* smartphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77641232DB6000B288F6 /* smartphone.png */; };
+		D70C78381232DB6000B288F6 /* BTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C776C1232DB6000B288F6 /* BTDevice.m */; };
+		D70C78391232DB6000B288F6 /* BTDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C776D1232DB6000B288F6 /* BTDiscoveryViewController.m */; };
+		D70C783A1232DB6000B288F6 /* BTInquiryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C776E1232DB6000B288F6 /* BTInquiryViewController.m */; };
+		D70C783B1232DB6000B288F6 /* BTstackCocoaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77701232DB6000B288F6 /* BTstackCocoaAppDelegate.m */; };
+		D70C783C1232DB6000B288F6 /* BTstackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77711232DB6000B288F6 /* BTstackManager.m */; };
+		D70C783D1232DB6000B288F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77721232DB6000B288F6 /* main.m */; };
+		D70C783E1232DB6000B288F6 /* TestBTstackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77741232DB6000B288F6 /* TestBTstackManager.m */; };
+		D70C783F1232DB6000B288F6 /* TestBTstackManager-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70C77751232DB6000B288F6 /* TestBTstackManager-Info.plist */; };
+		D70C78401232DB6000B288F6 /* config-cydia.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C77761232DB6000B288F6 /* config-cydia.sh */; };
+		D70C78411232DB6000B288F6 /* config.guess in Resources */ = {isa = PBXBuildFile; fileRef = D70C77771232DB6000B288F6 /* config.guess */; };
+		D70C78421232DB6000B288F6 /* config.sub in Resources */ = {isa = PBXBuildFile; fileRef = D70C77781232DB6000B288F6 /* config.sub */; };
+		D70C78431232DB6000B288F6 /* configure.in in Resources */ = {isa = PBXBuildFile; fileRef = D70C77791232DB6000B288F6 /* configure.in */; };
+		D70C78441232DB6000B288F6 /* inquiry.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C777B1232DB6000B288F6 /* inquiry.c */; };
+		D70C78451232DB6000B288F6 /* l2cap-server.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C777C1232DB6000B288F6 /* l2cap-server.c */; };
+		D70C78461232DB6000B288F6 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = D70C777D1232DB6000B288F6 /* Makefile.in */; };
+		D70C78471232DB6000B288F6 /* mitm.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C777E1232DB6000B288F6 /* mitm.c */; };
+		D70C78481232DB6000B288F6 /* rfcomm.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C777F1232DB6000B288F6 /* rfcomm.c */; };
+		D70C78491232DB6000B288F6 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77801232DB6000B288F6 /* test.c */; };
+		D70C784A1232DB6000B288F6 /* WiiMoteOpenGLDemo.app in Resources */ = {isa = PBXBuildFile; fileRef = D70C77841232DB6000B288F6 /* WiiMoteOpenGLDemo.app */; };
+		D70C784B1232DB6000B288F6 /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77881232DB6000B288F6 /* build-state.dat */; };
+		D70C784C1232DB6000B288F6 /* build-state~.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77891232DB6000B288F6 /* build-state~.dat */; };
+		D70C784D1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C778A1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */; };
+		D70C784E1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C778B1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */; };
+		D70C784F1232DB6000B288F6 /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C778E1232DB6000B288F6 /* build-state.dat */; };
+		D70C78501232DB6000B288F6 /* build-state~.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C778F1232DB6000B288F6 /* build-state~.dat */; };
+		D70C78511232DB6000B288F6 /* WiiMoteOpenGLDemo.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77901232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */; };
+		D70C78521232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77911232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */; };
+		D70C78531232DB6000B288F6 /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77941232DB6000B288F6 /* build-state.dat */; };
+		D70C78541232DB6000B288F6 /* build-state~.dat in Resources */ = {isa = PBXBuildFile; fileRef = D70C77951232DB6000B288F6 /* build-state~.dat */; };
+		D70C78551232DB6000B288F6 /* EAGLViewController.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C77981232DB6000B288F6 /* EAGLViewController.o */; };
+		D70C78561232DB6000B288F6 /* main.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C77991232DB6000B288F6 /* main.o */; };
+		D70C78571232DB6000B288F6 /* rotation.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C779A1232DB6000B288F6 /* rotation.o */; };
+		D70C78581232DB6000B288F6 /* WiiMoteOpenGLDemo.LinkFileList in Resources */ = {isa = PBXBuildFile; fileRef = D70C779B1232DB6000B288F6 /* WiiMoteOpenGLDemo.LinkFileList */; };
+		D70C78591232DB6000B288F6 /* WiiMoteOpenGLDemo-all-target-headers.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C779C1232DB6000B288F6 /* WiiMoteOpenGLDemo-all-target-headers.hmap */; };
+		D70C785A1232DB6000B288F6 /* WiiMoteOpenGLDemo-generated-files.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C779D1232DB6000B288F6 /* WiiMoteOpenGLDemo-generated-files.hmap */; };
+		D70C785B1232DB6000B288F6 /* WiiMoteOpenGLDemo-own-target-headers.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C779E1232DB6000B288F6 /* WiiMoteOpenGLDemo-own-target-headers.hmap */; };
+		D70C785C1232DB6000B288F6 /* WiiMoteOpenGLDemo-project-headers.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C779F1232DB6000B288F6 /* WiiMoteOpenGLDemo-project-headers.hmap */; };
+		D70C785D1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A01232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */; };
+		D70C785E1232DB6000B288F6 /* WiiMoteOpenGLDemo.hmap in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A11232DB6000B288F6 /* WiiMoteOpenGLDemo.hmap */; };
+		D70C785F1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A21232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */; };
+		D70C78601232DB6000B288F6 /* categories.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A41232DB6000B288F6 /* categories.pbxbtree */; };
+		D70C78611232DB6000B288F6 /* cdecls.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A51232DB6000B288F6 /* cdecls.pbxbtree */; };
+		D70C78621232DB6000B288F6 /* decls.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A61232DB6000B288F6 /* decls.pbxbtree */; };
+		D70C78631232DB6000B288F6 /* files.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A71232DB6000B288F6 /* files.pbxbtree */; };
+		D70C78641232DB6000B288F6 /* imports.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A81232DB6000B288F6 /* imports.pbxbtree */; };
+		D70C78651232DB6000B288F6 /* pbxindex.header in Resources */ = {isa = PBXBuildFile; fileRef = D70C77A91232DB6000B288F6 /* pbxindex.header */; };
+		D70C78661232DB6000B288F6 /* protocols.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77AA1232DB6000B288F6 /* protocols.pbxbtree */; };
+		D70C78671232DB6000B288F6 /* refs.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77AB1232DB6000B288F6 /* refs.pbxbtree */; };
+		D70C78681232DB6000B288F6 /* control in Resources */ = {isa = PBXBuildFile; fileRef = D70C77AD1232DB6000B288F6 /* control */; };
+		D70C78691232DB6000B288F6 /* strings in Resources */ = {isa = PBXBuildFile; fileRef = D70C77AE1232DB6000B288F6 /* strings */; };
+		D70C786A1232DB6000B288F6 /* subclasses.pbxbtree in Resources */ = {isa = PBXBuildFile; fileRef = D70C77AF1232DB6000B288F6 /* subclasses.pbxbtree */; };
+		D70C786B1232DB6000B288F6 /* symbols0.pbxsymbols in Resources */ = {isa = PBXBuildFile; fileRef = D70C77B01232DB6000B288F6 /* symbols0.pbxsymbols */; };
+		D70C786C1232DB6000B288F6 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77B31232DB6000B288F6 /* EAGLView.m */; };
+		D70C786D1232DB6000B288F6 /* EAGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77B51232DB6000B288F6 /* EAGLViewController.m */; };
+		D70C786E1232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77B71232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.m */; };
+		D70C786F1232DB6000B288F6 /* control in Resources */ = {isa = PBXBuildFile; fileRef = D70C77B81232DB6000B288F6 /* control */; };
+		D70C78701232DB6000B288F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70C77B91232DB6000B288F6 /* Info.plist */; };
+		D70C78711232DB6000B288F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77BA1232DB6000B288F6 /* main.m */; };
+		D70C78721232DB6000B288F6 /* package.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C77BB1232DB6000B288F6 /* package.sh */; };
+		D70C78731232DB6000B288F6 /* rotation.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77BC1232DB6000B288F6 /* rotation.c */; };
+		D70C78741232DB6000B288F6 /* wiimote_coords.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70C77BD1232DB6000B288F6 /* wiimote_coords.txt */; };
+		D70C78751232DB6000B288F6 /* wiimote_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77BE1232DB6000B288F6 /* wiimote_logo.png */; };
+		D70C78761232DB6000B288F6 /* wiimote_logo_55px.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77BF1232DB6000B288F6 /* wiimote_logo_55px.png */; };
+		D70C78771232DB6000B288F6 /* wiimote_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77C01232DB6000B288F6 /* wiimote_texture.png */; };
+		D70C78781232DB6000B288F6 /* ltmain.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C77CD1232DB6000B288F6 /* ltmain.sh */; };
+		D70C78791232DB6000B288F6 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = D70C77CE1232DB6000B288F6 /* Makefile.am */; };
+		D70C787A1232DB6000B288F6 /* package.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C77CF1232DB6000B288F6 /* package.sh */; };
+		D70C787B1232DB6000B288F6 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = D70C77D11232DB6000B288F6 /* Makefile.in */; };
+		D70C787C1232DB6000B288F6 /* PatchBlueTool.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77D21232DB6000B288F6 /* PatchBlueTool.c */; };
+		D70C787D1232DB6000B288F6 /* ch.ringwald.BTstack.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70C77D71232DB6000B288F6 /* ch.ringwald.BTstack.plist */; };
+		D70C787E1232DB6000B288F6 /* ch.ringwald.BTstackTCP.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70C77D81232DB6000B288F6 /* ch.ringwald.BTstackTCP.plist */; };
+		D70C787F1232DB6000B288F6 /* control in Resources */ = {isa = PBXBuildFile; fileRef = D70C77D91232DB6000B288F6 /* control */; };
+		D70C78801232DB6000B288F6 /* Default_BTstack.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77DA1232DB6000B288F6 /* Default_BTstack.png */; };
+		D70C78811232DB6000B288F6 /* Default_BTstackActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77DB1232DB6000B288F6 /* Default_BTstackActive.png */; };
+		D70C78821232DB6000B288F6 /* FSO_BTstack.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77DC1232DB6000B288F6 /* FSO_BTstack.png */; };
+		D70C78831232DB6000B288F6 /* FSO_BTstackActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D70C77DD1232DB6000B288F6 /* FSO_BTstackActive.png */; };
+		D70C78841232DB6000B288F6 /* SDP.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70C77DE1232DB6000B288F6 /* SDP.txt */; };
+		D70C78851232DB6000B288F6 /* control in Resources */ = {isa = PBXBuildFile; fileRef = D70C77E01232DB6000B288F6 /* control */; };
+		D70C78861232DB6000B288F6 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = D70C77E11232DB6000B288F6 /* Makefile.in */; };
+		D70C78871232DB6000B288F6 /* package.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C77E21232DB6000B288F6 /* package.sh */; };
+		D70C78881232DB6000B288F6 /* SpringBoardAccess-test.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77E31232DB6000B288F6 /* SpringBoardAccess-test.c */; };
+		D70C78891232DB6000B288F6 /* SpringBoardAccess.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77E41232DB6000B288F6 /* SpringBoardAccess.c */; };
+		D70C788A1232DB6000B288F6 /* SpringBoardAccess.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70C77E61232DB6000B288F6 /* SpringBoardAccess.plist */; };
+		D70C788B1232DB6000B288F6 /* SpringBoardAccessExtension.mm in Sources */ = {isa = PBXBuildFile; fileRef = D70C77E71232DB6000B288F6 /* SpringBoardAccessExtension.mm */; };
+		D70C788C1232DB6000B288F6 /* bt_control_iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C77EB1232DB6000B288F6 /* bt_control_iphone.m */; };
+		D70C788D1232DB6000B288F6 /* btstack.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77EC1232DB6000B288F6 /* btstack.c */; };
+		D70C788E1232DB6000B288F6 /* daemon.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77ED1232DB6000B288F6 /* daemon.c */; };
+		D70C788F1232DB6000B288F6 /* get_version.sh in Resources */ = {isa = PBXBuildFile; fileRef = D70C77EF1232DB6000B288F6 /* get_version.sh */; };
+		D70C78901232DB6000B288F6 /* hci.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F01232DB6000B288F6 /* hci.c */; };
+		D70C78911232DB6000B288F6 /* hci_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F21232DB6000B288F6 /* hci_cmds.c */; };
+		D70C78921232DB6000B288F6 /* hci_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F31232DB6000B288F6 /* hci_dump.c */; };
+		D70C78931232DB6000B288F6 /* hci_transport_h4.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F61232DB6000B288F6 /* hci_transport_h4.c */; };
+		D70C78941232DB6000B288F6 /* hci_transport_h5.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F71232DB6000B288F6 /* hci_transport_h5.c */; };
+		D70C78951232DB6000B288F6 /* hci_transport_usb.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F81232DB6000B288F6 /* hci_transport_usb.c */; };
+		D70C78961232DB6000B288F6 /* l2cap.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77F91232DB6000B288F6 /* l2cap.c */; };
+		D70C78971232DB6000B288F6 /* l2cap_signaling.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77FB1232DB6000B288F6 /* l2cap_signaling.c */; };
+		D70C78981232DB6000B288F6 /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C77FD1232DB6000B288F6 /* linked_list.c */; };
+		D70C78991232DB6000B288F6 /* Makefile.am.disabled in Resources */ = {isa = PBXBuildFile; fileRef = D70C77FE1232DB6000B288F6 /* Makefile.am.disabled */; };
+		D70C789A1232DB6000B288F6 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = D70C77FF1232DB6000B288F6 /* Makefile.in */; };
+		D70C789B1232DB6000B288F6 /* platform_iphone.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C78001232DB6000B288F6 /* platform_iphone.c */; };
+		D70C789C1232DB6000B288F6 /* run_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C78021232DB6000B288F6 /* run_loop.c */; };
+		D70C789D1232DB6000B288F6 /* run_loop_cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C78031232DB6000B288F6 /* run_loop_cocoa.m */; };
+		D70C789E1232DB6000B288F6 /* run_loop_embedded.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C78041232DB6000B288F6 /* run_loop_embedded.c */; };
+		D70C789F1232DB6000B288F6 /* run_loop_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C78051232DB6000B288F6 /* run_loop_posix.c */; };
+		D70C78A01232DB6000B288F6 /* sdp.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C78071232DB6000B288F6 /* sdp.c */; };
+		D70C78A11232DB6000B288F6 /* sdp_util.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C78091232DB6000B288F6 /* sdp_util.c */; };
+		D70C78A21232DB6000B288F6 /* socket_connection.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C780A1232DB6000B288F6 /* socket_connection.c */; };
+		D70C78A31232DB6000B288F6 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C780C1232DB6000B288F6 /* utils.c */; };
+		D70C78A41232DB6000B288F6 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70C780D1232DB6000B288F6 /* TODO.txt */; };
 		D7268985120F2BF20037808F /* JSONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7268984120F2BF20037808F /* JSONViewController.xib */; };
 		D7268998120F2D350037808F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7268996120F2D350037808F /* TestViewController.m */; };
 		D7268999120F2D350037808F /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7268997120F2D350037808F /* TestViewController.xib */; };
@@ -40,6 +192,44 @@
 		D7BE8DDF120A67B800E3C837 /* JSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DDE120A67B800E3C837 /* JSONViewController.m */; };
 		D7F41FCA1213A6F000C4D966 /* hairCare.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F41FC91213A6F000C4D966 /* hairCare.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D70C78A91232DB6000B288F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70C772F1232DB6000B288F6 /* BTstackCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54 /* BTstackCocoa.app */;
+			remoteInfo = BTstackCocoa;
+		};
+		D70C78AF1232DB6000B288F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70C77C11232DB6000B288F6 /* WiiMoteOpenGLDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54 /* WiiMoteOpenGLDemo.app */;
+			remoteInfo = WiiMoteOpenGLDemo;
+		};
+		D70C78BA1232DB6000B288F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70C77D31232DB6000B288F6 /* project.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FB20486AB0100D96B5E /* project */;
+			remoteInfo = BTdaemon;
+		};
+		D70C78BC1232DB6000B288F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70C77D31232DB6000B288F6 /* project.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7B5CF6100FC96A0065D87E /* clientTest */;
+			remoteInfo = clientTest;
+		};
+		D70C78BE1232DB6000B288F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70C77D31232DB6000B288F6 /* project.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CF3F75F112F239B00D081C9 /* TestBTstackManager.app */;
+			remoteInfo = TestBTstackManager;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +259,194 @@
 		D70C74CD1232CF3900B288F6 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		D70C74CE1232CF3900B288F6 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
 		D70C74DC1232CF5100B288F6 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		D70C77201232DB1A00B288F6 /* GetSomeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSomeTest.h; sourceTree = "<group>"; };
+		D70C77211232DB1A00B288F6 /* GetSomeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSomeTest.m; sourceTree = "<group>"; };
+		D70C77261232DB6000B288F6 /* launch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = launch.h; sourceTree = "<group>"; };
+		D70C77271232DB6000B288F6 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
+		D70C77281232DB6000B288F6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D70C77291232DB6000B288F6 /* substrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = substrate.h; sourceTree = "<group>"; };
+		D70C772A1232DB6000B288F6 /* aclocal.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		D70C772B1232DB6000B288F6 /* addCopyright.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = addCopyright.sh; sourceTree = "<group>"; };
+		D70C772C1232DB6000B288F6 /* bootstrap.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = bootstrap.sh; sourceTree = "<group>"; };
+		D70C772E1232DB6000B288F6 /* BTstackCocoa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BTstackCocoa-Info.plist"; sourceTree = "<group>"; };
+		D70C772F1232DB6000B288F6 /* BTstackCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BTstackCocoa.xcodeproj; sourceTree = "<group>"; };
+		D70C77321232DB6000B288F6 /* BTstackCocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTstackCocoa_Prefix.pch; sourceTree = "<group>"; };
+		D70C77361232DB6000B288F6 /* categories.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = categories.pbxbtree; sourceTree = "<group>"; };
+		D70C77371232DB6000B288F6 /* cdecls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdecls.pbxbtree; sourceTree = "<group>"; };
+		D70C77381232DB6000B288F6 /* decls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = decls.pbxbtree; sourceTree = "<group>"; };
+		D70C77391232DB6000B288F6 /* files.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = files.pbxbtree; sourceTree = "<group>"; };
+		D70C773A1232DB6000B288F6 /* imports.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = imports.pbxbtree; sourceTree = "<group>"; };
+		D70C773B1232DB6000B288F6 /* pbxindex.header */ = {isa = PBXFileReference; lastKnownFileType = file; path = pbxindex.header; sourceTree = "<group>"; };
+		D70C773C1232DB6000B288F6 /* protocols.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocols.pbxbtree; sourceTree = "<group>"; };
+		D70C773D1232DB6000B288F6 /* refs.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = refs.pbxbtree; sourceTree = "<group>"; };
+		D70C773F1232DB6000B288F6 /* control */ = {isa = PBXFileReference; lastKnownFileType = file; path = control; sourceTree = "<group>"; };
+		D70C77401232DB6000B288F6 /* strings */ = {isa = PBXFileReference; lastKnownFileType = file; path = strings; sourceTree = "<group>"; };
+		D70C77411232DB6000B288F6 /* subclasses.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = subclasses.pbxbtree; sourceTree = "<group>"; };
+		D70C77421232DB6000B288F6 /* symbols0.pbxsymbols */ = {isa = PBXFileReference; lastKnownFileType = file; path = symbols0.pbxsymbols; sourceTree = "<group>"; };
+		D70C77451232DB6000B288F6 /* BTstackCocoa.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BTstackCocoa.dep; sourceTree = "<group>"; };
+		D70C77461232DB6000B288F6 /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		D70C77491232DB6000B288F6 /* BTstackCocoa.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BTstackCocoa.dep; sourceTree = "<group>"; };
+		D70C774A1232DB6000B288F6 /* BTstackCocoa~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BTstackCocoa~.dep"; sourceTree = "<group>"; };
+		D70C774B1232DB6000B288F6 /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		D70C774C1232DB6000B288F6 /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		D70C774F1232DB6000B288F6 /* BTstackCocoa-all-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BTstackCocoa-all-target-headers.hmap"; sourceTree = "<group>"; };
+		D70C77501232DB6000B288F6 /* BTstackCocoa-generated-files.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BTstackCocoa-generated-files.hmap"; sourceTree = "<group>"; };
+		D70C77511232DB6000B288F6 /* BTstackCocoa-own-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BTstackCocoa-own-target-headers.hmap"; sourceTree = "<group>"; };
+		D70C77521232DB6000B288F6 /* BTstackCocoa-project-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BTstackCocoa-project-headers.hmap"; sourceTree = "<group>"; };
+		D70C77531232DB6000B288F6 /* BTstackCocoa.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BTstackCocoa.dep; sourceTree = "<group>"; };
+		D70C77541232DB6000B288F6 /* BTstackCocoa.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = BTstackCocoa.hmap; sourceTree = "<group>"; };
+		D70C77551232DB6000B288F6 /* BTstackCocoa~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BTstackCocoa~.dep"; sourceTree = "<group>"; };
+		D70C77561232DB6000B288F6 /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		D70C77571232DB6000B288F6 /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		D70C775A1232DB6000B288F6 /* BTstackCocoa.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BTstackCocoa.LinkFileList; sourceTree = "<group>"; };
+		D70C775B1232DB6000B288F6 /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		D70C775D1232DB6000B288F6 /* BTstackCocoa.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = BTstackCocoa.app; sourceTree = "<group>"; };
+		D70C775F1232DB6000B288F6 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth.png; sourceTree = "<group>"; };
+		D70C77601232DB6000B288F6 /* computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer.png; sourceTree = "<group>"; };
+		D70C77611232DB6000B288F6 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		D70C77621232DB6000B288F6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D70C77631232DB6000B288F6 /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
+		D70C77641232DB6000B288F6 /* smartphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartphone.png; sourceTree = "<group>"; };
+		D70C77671232DB6000B288F6 /* BTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDevice.h; sourceTree = "<group>"; };
+		D70C77681232DB6000B288F6 /* BTDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscoveryViewController.h; sourceTree = "<group>"; };
+		D70C77691232DB6000B288F6 /* BTInquiryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTInquiryViewController.h; sourceTree = "<group>"; };
+		D70C776A1232DB6000B288F6 /* BTstackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTstackManager.h; sourceTree = "<group>"; };
+		D70C776C1232DB6000B288F6 /* BTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDevice.m; sourceTree = "<group>"; };
+		D70C776D1232DB6000B288F6 /* BTDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDiscoveryViewController.m; sourceTree = "<group>"; };
+		D70C776E1232DB6000B288F6 /* BTInquiryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTInquiryViewController.m; sourceTree = "<group>"; };
+		D70C776F1232DB6000B288F6 /* BTstackCocoaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTstackCocoaAppDelegate.h; sourceTree = "<group>"; };
+		D70C77701232DB6000B288F6 /* BTstackCocoaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTstackCocoaAppDelegate.m; sourceTree = "<group>"; };
+		D70C77711232DB6000B288F6 /* BTstackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTstackManager.m; sourceTree = "<group>"; };
+		D70C77721232DB6000B288F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D70C77731232DB6000B288F6 /* TestBTstackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBTstackManager.h; sourceTree = "<group>"; };
+		D70C77741232DB6000B288F6 /* TestBTstackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBTstackManager.m; sourceTree = "<group>"; };
+		D70C77751232DB6000B288F6 /* TestBTstackManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestBTstackManager-Info.plist"; sourceTree = "<group>"; };
+		D70C77761232DB6000B288F6 /* config-cydia.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "config-cydia.sh"; sourceTree = "<group>"; };
+		D70C77771232DB6000B288F6 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = file; path = config.guess; sourceTree = "<group>"; };
+		D70C77781232DB6000B288F6 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = file; path = config.sub; sourceTree = "<group>"; };
+		D70C77791232DB6000B288F6 /* configure.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		D70C777B1232DB6000B288F6 /* inquiry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inquiry.c; sourceTree = "<group>"; };
+		D70C777C1232DB6000B288F6 /* l2cap-server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "l2cap-server.c"; sourceTree = "<group>"; };
+		D70C777D1232DB6000B288F6 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D70C777E1232DB6000B288F6 /* mitm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mitm.c; sourceTree = "<group>"; };
+		D70C777F1232DB6000B288F6 /* rfcomm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rfcomm.c; sourceTree = "<group>"; };
+		D70C77801232DB6000B288F6 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		D70C77841232DB6000B288F6 /* WiiMoteOpenGLDemo.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = WiiMoteOpenGLDemo.app; sourceTree = "<group>"; };
+		D70C77881232DB6000B288F6 /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		D70C77891232DB6000B288F6 /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		D70C778A1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WiiMoteOpenGLDemo.dep; sourceTree = "<group>"; };
+		D70C778B1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "WiiMoteOpenGLDemo~.dep"; sourceTree = "<group>"; };
+		D70C778E1232DB6000B288F6 /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		D70C778F1232DB6000B288F6 /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		D70C77901232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WiiMoteOpenGLDemo.dep; sourceTree = "<group>"; };
+		D70C77911232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "WiiMoteOpenGLDemo~.dep"; sourceTree = "<group>"; };
+		D70C77941232DB6000B288F6 /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		D70C77951232DB6000B288F6 /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		D70C77981232DB6000B288F6 /* EAGLViewController.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = EAGLViewController.o; sourceTree = "<group>"; };
+		D70C77991232DB6000B288F6 /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		D70C779A1232DB6000B288F6 /* rotation.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rotation.o; sourceTree = "<group>"; };
+		D70C779B1232DB6000B288F6 /* WiiMoteOpenGLDemo.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WiiMoteOpenGLDemo.LinkFileList; sourceTree = "<group>"; };
+		D70C779C1232DB6000B288F6 /* WiiMoteOpenGLDemo-all-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WiiMoteOpenGLDemo-all-target-headers.hmap"; sourceTree = "<group>"; };
+		D70C779D1232DB6000B288F6 /* WiiMoteOpenGLDemo-generated-files.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WiiMoteOpenGLDemo-generated-files.hmap"; sourceTree = "<group>"; };
+		D70C779E1232DB6000B288F6 /* WiiMoteOpenGLDemo-own-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WiiMoteOpenGLDemo-own-target-headers.hmap"; sourceTree = "<group>"; };
+		D70C779F1232DB6000B288F6 /* WiiMoteOpenGLDemo-project-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WiiMoteOpenGLDemo-project-headers.hmap"; sourceTree = "<group>"; };
+		D70C77A01232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WiiMoteOpenGLDemo.dep; sourceTree = "<group>"; };
+		D70C77A11232DB6000B288F6 /* WiiMoteOpenGLDemo.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = WiiMoteOpenGLDemo.hmap; sourceTree = "<group>"; };
+		D70C77A21232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "WiiMoteOpenGLDemo~.dep"; sourceTree = "<group>"; };
+		D70C77A41232DB6000B288F6 /* categories.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = categories.pbxbtree; sourceTree = "<group>"; };
+		D70C77A51232DB6000B288F6 /* cdecls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdecls.pbxbtree; sourceTree = "<group>"; };
+		D70C77A61232DB6000B288F6 /* decls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = decls.pbxbtree; sourceTree = "<group>"; };
+		D70C77A71232DB6000B288F6 /* files.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = files.pbxbtree; sourceTree = "<group>"; };
+		D70C77A81232DB6000B288F6 /* imports.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = imports.pbxbtree; sourceTree = "<group>"; };
+		D70C77A91232DB6000B288F6 /* pbxindex.header */ = {isa = PBXFileReference; lastKnownFileType = file; path = pbxindex.header; sourceTree = "<group>"; };
+		D70C77AA1232DB6000B288F6 /* protocols.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocols.pbxbtree; sourceTree = "<group>"; };
+		D70C77AB1232DB6000B288F6 /* refs.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = refs.pbxbtree; sourceTree = "<group>"; };
+		D70C77AD1232DB6000B288F6 /* control */ = {isa = PBXFileReference; lastKnownFileType = file; path = control; sourceTree = "<group>"; };
+		D70C77AE1232DB6000B288F6 /* strings */ = {isa = PBXFileReference; lastKnownFileType = file; path = strings; sourceTree = "<group>"; };
+		D70C77AF1232DB6000B288F6 /* subclasses.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = subclasses.pbxbtree; sourceTree = "<group>"; };
+		D70C77B01232DB6000B288F6 /* symbols0.pbxsymbols */ = {isa = PBXFileReference; lastKnownFileType = file; path = symbols0.pbxsymbols; sourceTree = "<group>"; };
+		D70C77B21232DB6000B288F6 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		D70C77B31232DB6000B288F6 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		D70C77B41232DB6000B288F6 /* EAGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLViewController.h; sourceTree = "<group>"; };
+		D70C77B51232DB6000B288F6 /* EAGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLViewController.m; sourceTree = "<group>"; };
+		D70C77B61232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiMoteOpenGLDemoAppDelegate.h; sourceTree = "<group>"; };
+		D70C77B71232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiMoteOpenGLDemoAppDelegate.m; sourceTree = "<group>"; };
+		D70C77B81232DB6000B288F6 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		D70C77B91232DB6000B288F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70C77BA1232DB6000B288F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D70C77BB1232DB6000B288F6 /* package.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = package.sh; sourceTree = "<group>"; };
+		D70C77BC1232DB6000B288F6 /* rotation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rotation.c; sourceTree = "<group>"; };
+		D70C77BD1232DB6000B288F6 /* wiimote_coords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wiimote_coords.txt; sourceTree = "<group>"; };
+		D70C77BE1232DB6000B288F6 /* wiimote_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wiimote_logo.png; sourceTree = "<group>"; };
+		D70C77BF1232DB6000B288F6 /* wiimote_logo_55px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wiimote_logo_55px.png; sourceTree = "<group>"; };
+		D70C77C01232DB6000B288F6 /* wiimote_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wiimote_texture.png; sourceTree = "<group>"; };
+		D70C77C11232DB6000B288F6 /* WiiMoteOpenGLDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WiiMoteOpenGLDemo.xcodeproj; sourceTree = "<group>"; };
+		D70C77C41232DB6000B288F6 /* WiiMoteOpenGLDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiMoteOpenGLDemo_Prefix.pch; sourceTree = "<group>"; };
+		D70C77C71232DB6000B288F6 /* btstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btstack.h; sourceTree = "<group>"; };
+		D70C77C81232DB6000B288F6 /* hci_cmds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hci_cmds.h; sourceTree = "<group>"; };
+		D70C77C91232DB6000B288F6 /* linked_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linked_list.h; sourceTree = "<group>"; };
+		D70C77CA1232DB6000B288F6 /* run_loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = run_loop.h; sourceTree = "<group>"; };
+		D70C77CB1232DB6000B288F6 /* sdp_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdp_util.h; sourceTree = "<group>"; };
+		D70C77CC1232DB6000B288F6 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		D70C77CD1232DB6000B288F6 /* ltmain.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		D70C77CE1232DB6000B288F6 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		D70C77CF1232DB6000B288F6 /* package.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = package.sh; sourceTree = "<group>"; };
+		D70C77D11232DB6000B288F6 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D70C77D21232DB6000B288F6 /* PatchBlueTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PatchBlueTool.c; sourceTree = "<group>"; };
+		D70C77D31232DB6000B288F6 /* project.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = project.xcodeproj; sourceTree = "<group>"; };
+		D70C77D71232DB6000B288F6 /* ch.ringwald.BTstack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ch.ringwald.BTstack.plist; sourceTree = "<group>"; };
+		D70C77D81232DB6000B288F6 /* ch.ringwald.BTstackTCP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ch.ringwald.BTstackTCP.plist; sourceTree = "<group>"; };
+		D70C77D91232DB6000B288F6 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		D70C77DA1232DB6000B288F6 /* Default_BTstack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default_BTstack.png; sourceTree = "<group>"; };
+		D70C77DB1232DB6000B288F6 /* Default_BTstackActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default_BTstackActive.png; sourceTree = "<group>"; };
+		D70C77DC1232DB6000B288F6 /* FSO_BTstack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSO_BTstack.png; sourceTree = "<group>"; };
+		D70C77DD1232DB6000B288F6 /* FSO_BTstackActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSO_BTstackActive.png; sourceTree = "<group>"; };
+		D70C77DE1232DB6000B288F6 /* SDP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SDP.txt; sourceTree = "<group>"; };
+		D70C77E01232DB6000B288F6 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		D70C77E11232DB6000B288F6 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D70C77E21232DB6000B288F6 /* package.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = package.sh; sourceTree = "<group>"; };
+		D70C77E31232DB6000B288F6 /* SpringBoardAccess-test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "SpringBoardAccess-test.c"; sourceTree = "<group>"; };
+		D70C77E41232DB6000B288F6 /* SpringBoardAccess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SpringBoardAccess.c; sourceTree = "<group>"; };
+		D70C77E51232DB6000B288F6 /* SpringBoardAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringBoardAccess.h; sourceTree = "<group>"; };
+		D70C77E61232DB6000B288F6 /* SpringBoardAccess.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = SpringBoardAccess.plist; sourceTree = "<group>"; };
+		D70C77E71232DB6000B288F6 /* SpringBoardAccessExtension.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpringBoardAccessExtension.mm; sourceTree = "<group>"; };
+		D70C77E91232DB6000B288F6 /* bt_control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bt_control.h; sourceTree = "<group>"; };
+		D70C77EA1232DB6000B288F6 /* bt_control_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bt_control_iphone.h; sourceTree = "<group>"; };
+		D70C77EB1232DB6000B288F6 /* bt_control_iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bt_control_iphone.m; sourceTree = "<group>"; };
+		D70C77EC1232DB6000B288F6 /* btstack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = btstack.c; sourceTree = "<group>"; };
+		D70C77ED1232DB6000B288F6 /* daemon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = daemon.c; sourceTree = "<group>"; };
+		D70C77EE1232DB6000B288F6 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		D70C77EF1232DB6000B288F6 /* get_version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = get_version.sh; sourceTree = "<group>"; };
+		D70C77F01232DB6000B288F6 /* hci.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hci.c; sourceTree = "<group>"; };
+		D70C77F11232DB6000B288F6 /* hci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hci.h; sourceTree = "<group>"; };
+		D70C77F21232DB6000B288F6 /* hci_cmds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hci_cmds.c; sourceTree = "<group>"; };
+		D70C77F31232DB6000B288F6 /* hci_dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hci_dump.c; sourceTree = "<group>"; };
+		D70C77F41232DB6000B288F6 /* hci_dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hci_dump.h; sourceTree = "<group>"; };
+		D70C77F51232DB6000B288F6 /* hci_transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hci_transport.h; sourceTree = "<group>"; };
+		D70C77F61232DB6000B288F6 /* hci_transport_h4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hci_transport_h4.c; sourceTree = "<group>"; };
+		D70C77F71232DB6000B288F6 /* hci_transport_h5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hci_transport_h5.c; sourceTree = "<group>"; };
+		D70C77F81232DB6000B288F6 /* hci_transport_usb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hci_transport_usb.c; sourceTree = "<group>"; };
+		D70C77F91232DB6000B288F6 /* l2cap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = l2cap.c; sourceTree = "<group>"; };
+		D70C77FA1232DB6000B288F6 /* l2cap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l2cap.h; sourceTree = "<group>"; };
+		D70C77FB1232DB6000B288F6 /* l2cap_signaling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = l2cap_signaling.c; sourceTree = "<group>"; };
+		D70C77FC1232DB6000B288F6 /* l2cap_signaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l2cap_signaling.h; sourceTree = "<group>"; };
+		D70C77FD1232DB6000B288F6 /* linked_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linked_list.c; sourceTree = "<group>"; };
+		D70C77FE1232DB6000B288F6 /* Makefile.am.disabled */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am.disabled; sourceTree = "<group>"; };
+		D70C77FF1232DB6000B288F6 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		D70C78001232DB6000B288F6 /* platform_iphone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platform_iphone.c; sourceTree = "<group>"; };
+		D70C78011232DB6000B288F6 /* platform_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform_iphone.h; sourceTree = "<group>"; };
+		D70C78021232DB6000B288F6 /* run_loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = run_loop.c; sourceTree = "<group>"; };
+		D70C78031232DB6000B288F6 /* run_loop_cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = run_loop_cocoa.m; sourceTree = "<group>"; };
+		D70C78041232DB6000B288F6 /* run_loop_embedded.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = run_loop_embedded.c; sourceTree = "<group>"; };
+		D70C78051232DB6000B288F6 /* run_loop_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = run_loop_posix.c; sourceTree = "<group>"; };
+		D70C78061232DB6000B288F6 /* run_loop_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = run_loop_private.h; sourceTree = "<group>"; };
+		D70C78071232DB6000B288F6 /* sdp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sdp.c; sourceTree = "<group>"; };
+		D70C78081232DB6000B288F6 /* sdp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdp.h; sourceTree = "<group>"; };
+		D70C78091232DB6000B288F6 /* sdp_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sdp_util.c; sourceTree = "<group>"; };
+		D70C780A1232DB6000B288F6 /* socket_connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket_connection.c; sourceTree = "<group>"; };
+		D70C780B1232DB6000B288F6 /* socket_connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket_connection.h; sourceTree = "<group>"; };
+		D70C780C1232DB6000B288F6 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		D70C780D1232DB6000B288F6 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 		D7268984120F2BF20037808F /* JSONViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSONViewController.xib; sourceTree = "<group>"; };
 		D7268995120F2D350037808F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		D7268996120F2D350037808F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
@@ -108,6 +486,11 @@
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
 				D70C74DD1232CF5100B288F6 /* libz.1.2.3.dylib in Frameworks */,
+				D70C780E1232DB6000B288F6 /* libsubstrate.dylib in Frameworks */,
+				D70C78301232DB6000B288F6 /* main.o in Frameworks */,
+				D70C78551232DB6000B288F6 /* EAGLViewController.o in Frameworks */,
+				D70C78561232DB6000B288F6 /* main.o in Frameworks */,
+				D70C78571232DB6000B288F6 /* rotation.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +500,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D70C77241232DB6000B288F6 /* btstack */,
 				D70C74C21232CF3900B288F6 /* ZipArchive */,
 				D7BE8DC9120A672100E3C837 /* JSON */,
 				1D3623240D0F684500981E51 /* TipsAppDelegate.h */,
@@ -129,6 +513,8 @@
 				D7BE8D77120A599700E3C837 /* RootViewController.h */,
 				D7BE8D78120A599700E3C837 /* RootViewController.m */,
 				D7268984120F2BF20037808F /* JSONViewController.xib */,
+				D70C77201232DB1A00B288F6 /* GetSomeTest.h */,
+				D70C77211232DB1A00B288F6 /* GetSomeTest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -215,6 +601,554 @@
 			path = minizip;
 			sourceTree = "<group>";
 		};
+		D70C77241232DB6000B288F6 /* btstack */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77251232DB6000B288F6 /* 3rdparty */,
+				D70C772A1232DB6000B288F6 /* aclocal.m4 */,
+				D70C772B1232DB6000B288F6 /* addCopyright.sh */,
+				D70C772C1232DB6000B288F6 /* bootstrap.sh */,
+				D70C772D1232DB6000B288F6 /* CocoaTouch */,
+				D70C77761232DB6000B288F6 /* config-cydia.sh */,
+				D70C77771232DB6000B288F6 /* config.guess */,
+				D70C77781232DB6000B288F6 /* config.sub */,
+				D70C77791232DB6000B288F6 /* configure.in */,
+				D70C777A1232DB6000B288F6 /* example */,
+				D70C77C51232DB6000B288F6 /* include */,
+				D70C77CD1232DB6000B288F6 /* ltmain.sh */,
+				D70C77CE1232DB6000B288F6 /* Makefile.am */,
+				D70C77CF1232DB6000B288F6 /* package.sh */,
+				D70C77D01232DB6000B288F6 /* PatchBlueTool */,
+				D70C77D31232DB6000B288F6 /* project.xcodeproj */,
+				D70C77D61232DB6000B288F6 /* resources */,
+				D70C77DE1232DB6000B288F6 /* SDP.txt */,
+				D70C77DF1232DB6000B288F6 /* SpringBoardAccess */,
+				D70C77E81232DB6000B288F6 /* src */,
+				D70C780D1232DB6000B288F6 /* TODO.txt */,
+			);
+			name = btstack;
+			path = "../../../../../iPhone Libraries/btstack";
+			sourceTree = SOURCE_ROOT;
+		};
+		D70C77251232DB6000B288F6 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77261232DB6000B288F6 /* launch.h */,
+				D70C77271232DB6000B288F6 /* libsubstrate.dylib */,
+				D70C77281232DB6000B288F6 /* README */,
+				D70C77291232DB6000B288F6 /* substrate.h */,
+			);
+			path = 3rdparty;
+			sourceTree = "<group>";
+		};
+		D70C772D1232DB6000B288F6 /* CocoaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				D70C772E1232DB6000B288F6 /* BTstackCocoa-Info.plist */,
+				D70C772F1232DB6000B288F6 /* BTstackCocoa.xcodeproj */,
+				D70C77321232DB6000B288F6 /* BTstackCocoa_Prefix.pch */,
+				D70C77331232DB6000B288F6 /* build */,
+				D70C775E1232DB6000B288F6 /* icons */,
+				D70C77651232DB6000B288F6 /* include */,
+				D70C776B1232DB6000B288F6 /* src */,
+				D70C77751232DB6000B288F6 /* TestBTstackManager-Info.plist */,
+			);
+			path = CocoaTouch;
+			sourceTree = "<group>";
+		};
+		D70C77301232DB6000B288F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70C78AA1232DB6000B288F6 /* BTstackCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70C77331232DB6000B288F6 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77341232DB6000B288F6 /* BTstackCocoa.build */,
+				D70C775C1232DB6000B288F6 /* Debug-iphonesimulator */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		D70C77341232DB6000B288F6 /* BTstackCocoa.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77351232DB6000B288F6 /* BTstackCocoa.pbxindex */,
+				D70C77431232DB6000B288F6 /* Debug */,
+				D70C77471232DB6000B288F6 /* Debug-iphoneos */,
+				D70C774D1232DB6000B288F6 /* Debug-iphonesimulator */,
+			);
+			path = BTstackCocoa.build;
+			sourceTree = "<group>";
+		};
+		D70C77351232DB6000B288F6 /* BTstackCocoa.pbxindex */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77361232DB6000B288F6 /* categories.pbxbtree */,
+				D70C77371232DB6000B288F6 /* cdecls.pbxbtree */,
+				D70C77381232DB6000B288F6 /* decls.pbxbtree */,
+				D70C77391232DB6000B288F6 /* files.pbxbtree */,
+				D70C773A1232DB6000B288F6 /* imports.pbxbtree */,
+				D70C773B1232DB6000B288F6 /* pbxindex.header */,
+				D70C773C1232DB6000B288F6 /* protocols.pbxbtree */,
+				D70C773D1232DB6000B288F6 /* refs.pbxbtree */,
+				D70C773E1232DB6000B288F6 /* strings.pbxstrings */,
+				D70C77411232DB6000B288F6 /* subclasses.pbxbtree */,
+				D70C77421232DB6000B288F6 /* symbols0.pbxsymbols */,
+			);
+			path = BTstackCocoa.pbxindex;
+			sourceTree = "<group>";
+		};
+		D70C773E1232DB6000B288F6 /* strings.pbxstrings */ = {
+			isa = PBXGroup;
+			children = (
+				D70C773F1232DB6000B288F6 /* control */,
+				D70C77401232DB6000B288F6 /* strings */,
+			);
+			path = strings.pbxstrings;
+			sourceTree = "<group>";
+		};
+		D70C77431232DB6000B288F6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77441232DB6000B288F6 /* BTstackCocoa.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		D70C77441232DB6000B288F6 /* BTstackCocoa.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77451232DB6000B288F6 /* BTstackCocoa.dep */,
+				D70C77461232DB6000B288F6 /* build-state.dat */,
+			);
+			path = BTstackCocoa.build;
+			sourceTree = "<group>";
+		};
+		D70C77471232DB6000B288F6 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77481232DB6000B288F6 /* BTstackCocoa.build */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		D70C77481232DB6000B288F6 /* BTstackCocoa.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77491232DB6000B288F6 /* BTstackCocoa.dep */,
+				D70C774A1232DB6000B288F6 /* BTstackCocoa~.dep */,
+				D70C774B1232DB6000B288F6 /* build-state.dat */,
+				D70C774C1232DB6000B288F6 /* build-state~.dat */,
+			);
+			path = BTstackCocoa.build;
+			sourceTree = "<group>";
+		};
+		D70C774D1232DB6000B288F6 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				D70C774E1232DB6000B288F6 /* BTstackCocoa.build */,
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		D70C774E1232DB6000B288F6 /* BTstackCocoa.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C774F1232DB6000B288F6 /* BTstackCocoa-all-target-headers.hmap */,
+				D70C77501232DB6000B288F6 /* BTstackCocoa-generated-files.hmap */,
+				D70C77511232DB6000B288F6 /* BTstackCocoa-own-target-headers.hmap */,
+				D70C77521232DB6000B288F6 /* BTstackCocoa-project-headers.hmap */,
+				D70C77531232DB6000B288F6 /* BTstackCocoa.dep */,
+				D70C77541232DB6000B288F6 /* BTstackCocoa.hmap */,
+				D70C77551232DB6000B288F6 /* BTstackCocoa~.dep */,
+				D70C77561232DB6000B288F6 /* build-state.dat */,
+				D70C77571232DB6000B288F6 /* build-state~.dat */,
+				D70C77581232DB6000B288F6 /* Objects-normal */,
+			);
+			path = BTstackCocoa.build;
+			sourceTree = "<group>";
+		};
+		D70C77581232DB6000B288F6 /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77591232DB6000B288F6 /* i386 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		D70C77591232DB6000B288F6 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				D70C775A1232DB6000B288F6 /* BTstackCocoa.LinkFileList */,
+				D70C775B1232DB6000B288F6 /* main.o */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
+		D70C775C1232DB6000B288F6 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				D70C775D1232DB6000B288F6 /* BTstackCocoa.app */,
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		D70C775E1232DB6000B288F6 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				D70C775F1232DB6000B288F6 /* bluetooth.png */,
+				D70C77601232DB6000B288F6 /* computer.png */,
+				D70C77611232DB6000B288F6 /* keyboard.png */,
+				D70C77621232DB6000B288F6 /* LICENSE.txt */,
+				D70C77631232DB6000B288F6 /* mouse.png */,
+				D70C77641232DB6000B288F6 /* smartphone.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		D70C77651232DB6000B288F6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77661232DB6000B288F6 /* BTstack */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D70C77661232DB6000B288F6 /* BTstack */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77671232DB6000B288F6 /* BTDevice.h */,
+				D70C77681232DB6000B288F6 /* BTDiscoveryViewController.h */,
+				D70C77691232DB6000B288F6 /* BTInquiryViewController.h */,
+				D70C776A1232DB6000B288F6 /* BTstackManager.h */,
+			);
+			path = BTstack;
+			sourceTree = "<group>";
+		};
+		D70C776B1232DB6000B288F6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D70C776C1232DB6000B288F6 /* BTDevice.m */,
+				D70C776D1232DB6000B288F6 /* BTDiscoveryViewController.m */,
+				D70C776E1232DB6000B288F6 /* BTInquiryViewController.m */,
+				D70C776F1232DB6000B288F6 /* BTstackCocoaAppDelegate.h */,
+				D70C77701232DB6000B288F6 /* BTstackCocoaAppDelegate.m */,
+				D70C77711232DB6000B288F6 /* BTstackManager.m */,
+				D70C77721232DB6000B288F6 /* main.m */,
+				D70C77731232DB6000B288F6 /* TestBTstackManager.h */,
+				D70C77741232DB6000B288F6 /* TestBTstackManager.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D70C777A1232DB6000B288F6 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				D70C777B1232DB6000B288F6 /* inquiry.c */,
+				D70C777C1232DB6000B288F6 /* l2cap-server.c */,
+				D70C777D1232DB6000B288F6 /* Makefile.in */,
+				D70C777E1232DB6000B288F6 /* mitm.c */,
+				D70C777F1232DB6000B288F6 /* rfcomm.c */,
+				D70C77801232DB6000B288F6 /* test.c */,
+				D70C77811232DB6000B288F6 /* WiiMoteOpenGLDemo */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		D70C77811232DB6000B288F6 /* WiiMoteOpenGLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77821232DB6000B288F6 /* build */,
+				D70C77B11232DB6000B288F6 /* Classes */,
+				D70C77B81232DB6000B288F6 /* control */,
+				D70C77B91232DB6000B288F6 /* Info.plist */,
+				D70C77BA1232DB6000B288F6 /* main.m */,
+				D70C77BB1232DB6000B288F6 /* package.sh */,
+				D70C77BC1232DB6000B288F6 /* rotation.c */,
+				D70C77BD1232DB6000B288F6 /* wiimote_coords.txt */,
+				D70C77BE1232DB6000B288F6 /* wiimote_logo.png */,
+				D70C77BF1232DB6000B288F6 /* wiimote_logo_55px.png */,
+				D70C77C01232DB6000B288F6 /* wiimote_texture.png */,
+				D70C77C11232DB6000B288F6 /* WiiMoteOpenGLDemo.xcodeproj */,
+				D70C77C41232DB6000B288F6 /* WiiMoteOpenGLDemo_Prefix.pch */,
+			);
+			path = WiiMoteOpenGLDemo;
+			sourceTree = "<group>";
+		};
+		D70C77821232DB6000B288F6 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77831232DB6000B288F6 /* Debug-iphonesimulator */,
+				D70C77851232DB6000B288F6 /* WiiMoteOpenGLDemo.build */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		D70C77831232DB6000B288F6 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77841232DB6000B288F6 /* WiiMoteOpenGLDemo.app */,
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		D70C77851232DB6000B288F6 /* WiiMoteOpenGLDemo.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77861232DB6000B288F6 /* Debug */,
+				D70C778C1232DB6000B288F6 /* Debug-iphoneos */,
+				D70C77921232DB6000B288F6 /* Debug-iphonesimulator */,
+				D70C77A31232DB6000B288F6 /* WiiMoteOpenGLDemo.pbxindex */,
+			);
+			path = WiiMoteOpenGLDemo.build;
+			sourceTree = "<group>";
+		};
+		D70C77861232DB6000B288F6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77871232DB6000B288F6 /* WiiMoteOpenGLDemo.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		D70C77871232DB6000B288F6 /* WiiMoteOpenGLDemo.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77881232DB6000B288F6 /* build-state.dat */,
+				D70C77891232DB6000B288F6 /* build-state~.dat */,
+				D70C778A1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */,
+				D70C778B1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */,
+			);
+			path = WiiMoteOpenGLDemo.build;
+			sourceTree = "<group>";
+		};
+		D70C778C1232DB6000B288F6 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				D70C778D1232DB6000B288F6 /* WiiMoteOpenGLDemo.build */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		D70C778D1232DB6000B288F6 /* WiiMoteOpenGLDemo.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C778E1232DB6000B288F6 /* build-state.dat */,
+				D70C778F1232DB6000B288F6 /* build-state~.dat */,
+				D70C77901232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */,
+				D70C77911232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */,
+			);
+			path = WiiMoteOpenGLDemo.build;
+			sourceTree = "<group>";
+		};
+		D70C77921232DB6000B288F6 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77931232DB6000B288F6 /* WiiMoteOpenGLDemo.build */,
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		D70C77931232DB6000B288F6 /* WiiMoteOpenGLDemo.build */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77941232DB6000B288F6 /* build-state.dat */,
+				D70C77951232DB6000B288F6 /* build-state~.dat */,
+				D70C77961232DB6000B288F6 /* Objects-normal */,
+				D70C779C1232DB6000B288F6 /* WiiMoteOpenGLDemo-all-target-headers.hmap */,
+				D70C779D1232DB6000B288F6 /* WiiMoteOpenGLDemo-generated-files.hmap */,
+				D70C779E1232DB6000B288F6 /* WiiMoteOpenGLDemo-own-target-headers.hmap */,
+				D70C779F1232DB6000B288F6 /* WiiMoteOpenGLDemo-project-headers.hmap */,
+				D70C77A01232DB6000B288F6 /* WiiMoteOpenGLDemo.dep */,
+				D70C77A11232DB6000B288F6 /* WiiMoteOpenGLDemo.hmap */,
+				D70C77A21232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep */,
+			);
+			path = WiiMoteOpenGLDemo.build;
+			sourceTree = "<group>";
+		};
+		D70C77961232DB6000B288F6 /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77971232DB6000B288F6 /* i386 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		D70C77971232DB6000B288F6 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77981232DB6000B288F6 /* EAGLViewController.o */,
+				D70C77991232DB6000B288F6 /* main.o */,
+				D70C779A1232DB6000B288F6 /* rotation.o */,
+				D70C779B1232DB6000B288F6 /* WiiMoteOpenGLDemo.LinkFileList */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
+		D70C77A31232DB6000B288F6 /* WiiMoteOpenGLDemo.pbxindex */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77A41232DB6000B288F6 /* categories.pbxbtree */,
+				D70C77A51232DB6000B288F6 /* cdecls.pbxbtree */,
+				D70C77A61232DB6000B288F6 /* decls.pbxbtree */,
+				D70C77A71232DB6000B288F6 /* files.pbxbtree */,
+				D70C77A81232DB6000B288F6 /* imports.pbxbtree */,
+				D70C77A91232DB6000B288F6 /* pbxindex.header */,
+				D70C77AA1232DB6000B288F6 /* protocols.pbxbtree */,
+				D70C77AB1232DB6000B288F6 /* refs.pbxbtree */,
+				D70C77AC1232DB6000B288F6 /* strings.pbxstrings */,
+				D70C77AF1232DB6000B288F6 /* subclasses.pbxbtree */,
+				D70C77B01232DB6000B288F6 /* symbols0.pbxsymbols */,
+			);
+			path = WiiMoteOpenGLDemo.pbxindex;
+			sourceTree = "<group>";
+		};
+		D70C77AC1232DB6000B288F6 /* strings.pbxstrings */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77AD1232DB6000B288F6 /* control */,
+				D70C77AE1232DB6000B288F6 /* strings */,
+			);
+			path = strings.pbxstrings;
+			sourceTree = "<group>";
+		};
+		D70C77B11232DB6000B288F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77B21232DB6000B288F6 /* EAGLView.h */,
+				D70C77B31232DB6000B288F6 /* EAGLView.m */,
+				D70C77B41232DB6000B288F6 /* EAGLViewController.h */,
+				D70C77B51232DB6000B288F6 /* EAGLViewController.m */,
+				D70C77B61232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.h */,
+				D70C77B71232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D70C77C21232DB6000B288F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70C78B01232DB6000B288F6 /* WiiMoteOpenGLDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70C77C51232DB6000B288F6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77C61232DB6000B288F6 /* btstack */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D70C77C61232DB6000B288F6 /* btstack */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77C71232DB6000B288F6 /* btstack.h */,
+				D70C77C81232DB6000B288F6 /* hci_cmds.h */,
+				D70C77C91232DB6000B288F6 /* linked_list.h */,
+				D70C77CA1232DB6000B288F6 /* run_loop.h */,
+				D70C77CB1232DB6000B288F6 /* sdp_util.h */,
+				D70C77CC1232DB6000B288F6 /* utils.h */,
+			);
+			path = btstack;
+			sourceTree = "<group>";
+		};
+		D70C77D01232DB6000B288F6 /* PatchBlueTool */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77D11232DB6000B288F6 /* Makefile.in */,
+				D70C77D21232DB6000B288F6 /* PatchBlueTool.c */,
+			);
+			path = PatchBlueTool;
+			sourceTree = "<group>";
+		};
+		D70C77D41232DB6000B288F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70C78BB1232DB6000B288F6 /* project */,
+				D70C78BD1232DB6000B288F6 /* clientTest */,
+				D70C78BF1232DB6000B288F6 /* TestBTstackManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70C77D61232DB6000B288F6 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77D71232DB6000B288F6 /* ch.ringwald.BTstack.plist */,
+				D70C77D81232DB6000B288F6 /* ch.ringwald.BTstackTCP.plist */,
+				D70C77D91232DB6000B288F6 /* control */,
+				D70C77DA1232DB6000B288F6 /* Default_BTstack.png */,
+				D70C77DB1232DB6000B288F6 /* Default_BTstackActive.png */,
+				D70C77DC1232DB6000B288F6 /* FSO_BTstack.png */,
+				D70C77DD1232DB6000B288F6 /* FSO_BTstackActive.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		D70C77DF1232DB6000B288F6 /* SpringBoardAccess */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77E01232DB6000B288F6 /* control */,
+				D70C77E11232DB6000B288F6 /* Makefile.in */,
+				D70C77E21232DB6000B288F6 /* package.sh */,
+				D70C77E31232DB6000B288F6 /* SpringBoardAccess-test.c */,
+				D70C77E41232DB6000B288F6 /* SpringBoardAccess.c */,
+				D70C77E51232DB6000B288F6 /* SpringBoardAccess.h */,
+				D70C77E61232DB6000B288F6 /* SpringBoardAccess.plist */,
+				D70C77E71232DB6000B288F6 /* SpringBoardAccessExtension.mm */,
+			);
+			path = SpringBoardAccess;
+			sourceTree = "<group>";
+		};
+		D70C77E81232DB6000B288F6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D70C77E91232DB6000B288F6 /* bt_control.h */,
+				D70C77EA1232DB6000B288F6 /* bt_control_iphone.h */,
+				D70C77EB1232DB6000B288F6 /* bt_control_iphone.m */,
+				D70C77EC1232DB6000B288F6 /* btstack.c */,
+				D70C77ED1232DB6000B288F6 /* daemon.c */,
+				D70C77EE1232DB6000B288F6 /* debug.h */,
+				D70C77EF1232DB6000B288F6 /* get_version.sh */,
+				D70C77F01232DB6000B288F6 /* hci.c */,
+				D70C77F11232DB6000B288F6 /* hci.h */,
+				D70C77F21232DB6000B288F6 /* hci_cmds.c */,
+				D70C77F31232DB6000B288F6 /* hci_dump.c */,
+				D70C77F41232DB6000B288F6 /* hci_dump.h */,
+				D70C77F51232DB6000B288F6 /* hci_transport.h */,
+				D70C77F61232DB6000B288F6 /* hci_transport_h4.c */,
+				D70C77F71232DB6000B288F6 /* hci_transport_h5.c */,
+				D70C77F81232DB6000B288F6 /* hci_transport_usb.c */,
+				D70C77F91232DB6000B288F6 /* l2cap.c */,
+				D70C77FA1232DB6000B288F6 /* l2cap.h */,
+				D70C77FB1232DB6000B288F6 /* l2cap_signaling.c */,
+				D70C77FC1232DB6000B288F6 /* l2cap_signaling.h */,
+				D70C77FD1232DB6000B288F6 /* linked_list.c */,
+				D70C77FE1232DB6000B288F6 /* Makefile.am.disabled */,
+				D70C77FF1232DB6000B288F6 /* Makefile.in */,
+				D70C78001232DB6000B288F6 /* platform_iphone.c */,
+				D70C78011232DB6000B288F6 /* platform_iphone.h */,
+				D70C78021232DB6000B288F6 /* run_loop.c */,
+				D70C78031232DB6000B288F6 /* run_loop_cocoa.m */,
+				D70C78041232DB6000B288F6 /* run_loop_embedded.c */,
+				D70C78051232DB6000B288F6 /* run_loop_posix.c */,
+				D70C78061232DB6000B288F6 /* run_loop_private.h */,
+				D70C78071232DB6000B288F6 /* sdp.c */,
+				D70C78081232DB6000B288F6 /* sdp.h */,
+				D70C78091232DB6000B288F6 /* sdp_util.c */,
+				D70C780A1232DB6000B288F6 /* socket_connection.c */,
+				D70C780B1232DB6000B288F6 /* socket_connection.h */,
+				D70C780C1232DB6000B288F6 /* utils.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		D7BE8DC9120A672100E3C837 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,12 +1211,64 @@
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D70C77301232DB6000B288F6 /* Products */;
+					ProjectRef = D70C772F1232DB6000B288F6 /* BTstackCocoa.xcodeproj */;
+				},
+				{
+					ProductGroup = D70C77D41232DB6000B288F6 /* Products */;
+					ProjectRef = D70C77D31232DB6000B288F6 /* project.xcodeproj */;
+				},
+				{
+					ProductGroup = D70C77C21232DB6000B288F6 /* Products */;
+					ProjectRef = D70C77C11232DB6000B288F6 /* WiiMoteOpenGLDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Tips */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D70C78AA1232DB6000B288F6 /* BTstackCocoa.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BTstackCocoa.app;
+			remoteRef = D70C78A91232DB6000B288F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D70C78B01232DB6000B288F6 /* WiiMoteOpenGLDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WiiMoteOpenGLDemo.app;
+			remoteRef = D70C78AF1232DB6000B288F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D70C78BB1232DB6000B288F6 /* project */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = project;
+			remoteRef = D70C78BA1232DB6000B288F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D70C78BD1232DB6000B288F6 /* clientTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = clientTest;
+			remoteRef = D70C78BC1232DB6000B288F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D70C78BF1232DB6000B288F6 /* TestBTstackManager.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestBTstackManager.app;
+			remoteRef = D70C78BE1232DB6000B288F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -297,6 +1283,110 @@
 				D72E67A51214D408000269F1 /* skinCare.png in Resources */,
 				D72E67AB1214DC1C000269F1 /* makeupCare.png in Resources */,
 				D72E67B21214E7D7000269F1 /* misc.png in Resources */,
+				D70C780F1232DB6000B288F6 /* README in Resources */,
+				D70C78101232DB6000B288F6 /* aclocal.m4 in Resources */,
+				D70C78111232DB6000B288F6 /* addCopyright.sh in Resources */,
+				D70C78121232DB6000B288F6 /* bootstrap.sh in Resources */,
+				D70C78131232DB6000B288F6 /* BTstackCocoa-Info.plist in Resources */,
+				D70C78141232DB6000B288F6 /* categories.pbxbtree in Resources */,
+				D70C78151232DB6000B288F6 /* cdecls.pbxbtree in Resources */,
+				D70C78161232DB6000B288F6 /* decls.pbxbtree in Resources */,
+				D70C78171232DB6000B288F6 /* files.pbxbtree in Resources */,
+				D70C78181232DB6000B288F6 /* imports.pbxbtree in Resources */,
+				D70C78191232DB6000B288F6 /* pbxindex.header in Resources */,
+				D70C781A1232DB6000B288F6 /* protocols.pbxbtree in Resources */,
+				D70C781B1232DB6000B288F6 /* refs.pbxbtree in Resources */,
+				D70C781C1232DB6000B288F6 /* control in Resources */,
+				D70C781D1232DB6000B288F6 /* strings in Resources */,
+				D70C781E1232DB6000B288F6 /* subclasses.pbxbtree in Resources */,
+				D70C781F1232DB6000B288F6 /* symbols0.pbxsymbols in Resources */,
+				D70C78201232DB6000B288F6 /* BTstackCocoa.dep in Resources */,
+				D70C78211232DB6000B288F6 /* build-state.dat in Resources */,
+				D70C78221232DB6000B288F6 /* BTstackCocoa.dep in Resources */,
+				D70C78231232DB6000B288F6 /* BTstackCocoa~.dep in Resources */,
+				D70C78241232DB6000B288F6 /* build-state.dat in Resources */,
+				D70C78251232DB6000B288F6 /* build-state~.dat in Resources */,
+				D70C78261232DB6000B288F6 /* BTstackCocoa-all-target-headers.hmap in Resources */,
+				D70C78271232DB6000B288F6 /* BTstackCocoa-generated-files.hmap in Resources */,
+				D70C78281232DB6000B288F6 /* BTstackCocoa-own-target-headers.hmap in Resources */,
+				D70C78291232DB6000B288F6 /* BTstackCocoa-project-headers.hmap in Resources */,
+				D70C782A1232DB6000B288F6 /* BTstackCocoa.dep in Resources */,
+				D70C782B1232DB6000B288F6 /* BTstackCocoa.hmap in Resources */,
+				D70C782C1232DB6000B288F6 /* BTstackCocoa~.dep in Resources */,
+				D70C782D1232DB6000B288F6 /* build-state.dat in Resources */,
+				D70C782E1232DB6000B288F6 /* build-state~.dat in Resources */,
+				D70C782F1232DB6000B288F6 /* BTstackCocoa.LinkFileList in Resources */,
+				D70C78311232DB6000B288F6 /* BTstackCocoa.app in Resources */,
+				D70C78321232DB6000B288F6 /* bluetooth.png in Resources */,
+				D70C78331232DB6000B288F6 /* computer.png in Resources */,
+				D70C78341232DB6000B288F6 /* keyboard.png in Resources */,
+				D70C78351232DB6000B288F6 /* LICENSE.txt in Resources */,
+				D70C78361232DB6000B288F6 /* mouse.png in Resources */,
+				D70C78371232DB6000B288F6 /* smartphone.png in Resources */,
+				D70C783F1232DB6000B288F6 /* TestBTstackManager-Info.plist in Resources */,
+				D70C78401232DB6000B288F6 /* config-cydia.sh in Resources */,
+				D70C78411232DB6000B288F6 /* config.guess in Resources */,
+				D70C78421232DB6000B288F6 /* config.sub in Resources */,
+				D70C78431232DB6000B288F6 /* configure.in in Resources */,
+				D70C78461232DB6000B288F6 /* Makefile.in in Resources */,
+				D70C784A1232DB6000B288F6 /* WiiMoteOpenGLDemo.app in Resources */,
+				D70C784B1232DB6000B288F6 /* build-state.dat in Resources */,
+				D70C784C1232DB6000B288F6 /* build-state~.dat in Resources */,
+				D70C784D1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep in Resources */,
+				D70C784E1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep in Resources */,
+				D70C784F1232DB6000B288F6 /* build-state.dat in Resources */,
+				D70C78501232DB6000B288F6 /* build-state~.dat in Resources */,
+				D70C78511232DB6000B288F6 /* WiiMoteOpenGLDemo.dep in Resources */,
+				D70C78521232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep in Resources */,
+				D70C78531232DB6000B288F6 /* build-state.dat in Resources */,
+				D70C78541232DB6000B288F6 /* build-state~.dat in Resources */,
+				D70C78581232DB6000B288F6 /* WiiMoteOpenGLDemo.LinkFileList in Resources */,
+				D70C78591232DB6000B288F6 /* WiiMoteOpenGLDemo-all-target-headers.hmap in Resources */,
+				D70C785A1232DB6000B288F6 /* WiiMoteOpenGLDemo-generated-files.hmap in Resources */,
+				D70C785B1232DB6000B288F6 /* WiiMoteOpenGLDemo-own-target-headers.hmap in Resources */,
+				D70C785C1232DB6000B288F6 /* WiiMoteOpenGLDemo-project-headers.hmap in Resources */,
+				D70C785D1232DB6000B288F6 /* WiiMoteOpenGLDemo.dep in Resources */,
+				D70C785E1232DB6000B288F6 /* WiiMoteOpenGLDemo.hmap in Resources */,
+				D70C785F1232DB6000B288F6 /* WiiMoteOpenGLDemo~.dep in Resources */,
+				D70C78601232DB6000B288F6 /* categories.pbxbtree in Resources */,
+				D70C78611232DB6000B288F6 /* cdecls.pbxbtree in Resources */,
+				D70C78621232DB6000B288F6 /* decls.pbxbtree in Resources */,
+				D70C78631232DB6000B288F6 /* files.pbxbtree in Resources */,
+				D70C78641232DB6000B288F6 /* imports.pbxbtree in Resources */,
+				D70C78651232DB6000B288F6 /* pbxindex.header in Resources */,
+				D70C78661232DB6000B288F6 /* protocols.pbxbtree in Resources */,
+				D70C78671232DB6000B288F6 /* refs.pbxbtree in Resources */,
+				D70C78681232DB6000B288F6 /* control in Resources */,
+				D70C78691232DB6000B288F6 /* strings in Resources */,
+				D70C786A1232DB6000B288F6 /* subclasses.pbxbtree in Resources */,
+				D70C786B1232DB6000B288F6 /* symbols0.pbxsymbols in Resources */,
+				D70C786F1232DB6000B288F6 /* control in Resources */,
+				D70C78701232DB6000B288F6 /* Info.plist in Resources */,
+				D70C78721232DB6000B288F6 /* package.sh in Resources */,
+				D70C78741232DB6000B288F6 /* wiimote_coords.txt in Resources */,
+				D70C78751232DB6000B288F6 /* wiimote_logo.png in Resources */,
+				D70C78761232DB6000B288F6 /* wiimote_logo_55px.png in Resources */,
+				D70C78771232DB6000B288F6 /* wiimote_texture.png in Resources */,
+				D70C78781232DB6000B288F6 /* ltmain.sh in Resources */,
+				D70C78791232DB6000B288F6 /* Makefile.am in Resources */,
+				D70C787A1232DB6000B288F6 /* package.sh in Resources */,
+				D70C787B1232DB6000B288F6 /* Makefile.in in Resources */,
+				D70C787D1232DB6000B288F6 /* ch.ringwald.BTstack.plist in Resources */,
+				D70C787E1232DB6000B288F6 /* ch.ringwald.BTstackTCP.plist in Resources */,
+				D70C787F1232DB6000B288F6 /* control in Resources */,
+				D70C78801232DB6000B288F6 /* Default_BTstack.png in Resources */,
+				D70C78811232DB6000B288F6 /* Default_BTstackActive.png in Resources */,
+				D70C78821232DB6000B288F6 /* FSO_BTstack.png in Resources */,
+				D70C78831232DB6000B288F6 /* FSO_BTstackActive.png in Resources */,
+				D70C78841232DB6000B288F6 /* SDP.txt in Resources */,
+				D70C78851232DB6000B288F6 /* control in Resources */,
+				D70C78861232DB6000B288F6 /* Makefile.in in Resources */,
+				D70C78871232DB6000B288F6 /* package.sh in Resources */,
+				D70C788A1232DB6000B288F6 /* SpringBoardAccess.plist in Resources */,
+				D70C788F1232DB6000B288F6 /* get_version.sh in Resources */,
+				D70C78991232DB6000B288F6 /* Makefile.am.disabled in Resources */,
+				D70C789A1232DB6000B288F6 /* Makefile.in in Resources */,
+				D70C78A41232DB6000B288F6 /* TODO.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +1416,49 @@
 				D70C74D11232CF3900B288F6 /* unzip.c in Sources */,
 				D70C74D21232CF3900B288F6 /* zip.c in Sources */,
 				D70C74D31232CF3900B288F6 /* ZipArchive.mm in Sources */,
+				D70C77221232DB1A00B288F6 /* GetSomeTest.m in Sources */,
+				D70C78381232DB6000B288F6 /* BTDevice.m in Sources */,
+				D70C78391232DB6000B288F6 /* BTDiscoveryViewController.m in Sources */,
+				D70C783A1232DB6000B288F6 /* BTInquiryViewController.m in Sources */,
+				D70C783B1232DB6000B288F6 /* BTstackCocoaAppDelegate.m in Sources */,
+				D70C783C1232DB6000B288F6 /* BTstackManager.m in Sources */,
+				D70C783D1232DB6000B288F6 /* main.m in Sources */,
+				D70C783E1232DB6000B288F6 /* TestBTstackManager.m in Sources */,
+				D70C78441232DB6000B288F6 /* inquiry.c in Sources */,
+				D70C78451232DB6000B288F6 /* l2cap-server.c in Sources */,
+				D70C78471232DB6000B288F6 /* mitm.c in Sources */,
+				D70C78481232DB6000B288F6 /* rfcomm.c in Sources */,
+				D70C78491232DB6000B288F6 /* test.c in Sources */,
+				D70C786C1232DB6000B288F6 /* EAGLView.m in Sources */,
+				D70C786D1232DB6000B288F6 /* EAGLViewController.m in Sources */,
+				D70C786E1232DB6000B288F6 /* WiiMoteOpenGLDemoAppDelegate.m in Sources */,
+				D70C78711232DB6000B288F6 /* main.m in Sources */,
+				D70C78731232DB6000B288F6 /* rotation.c in Sources */,
+				D70C787C1232DB6000B288F6 /* PatchBlueTool.c in Sources */,
+				D70C78881232DB6000B288F6 /* SpringBoardAccess-test.c in Sources */,
+				D70C78891232DB6000B288F6 /* SpringBoardAccess.c in Sources */,
+				D70C788B1232DB6000B288F6 /* SpringBoardAccessExtension.mm in Sources */,
+				D70C788C1232DB6000B288F6 /* bt_control_iphone.m in Sources */,
+				D70C788D1232DB6000B288F6 /* btstack.c in Sources */,
+				D70C788E1232DB6000B288F6 /* daemon.c in Sources */,
+				D70C78901232DB6000B288F6 /* hci.c in Sources */,
+				D70C78911232DB6000B288F6 /* hci_cmds.c in Sources */,
+				D70C78921232DB6000B288F6 /* hci_dump.c in Sources */,
+				D70C78931232DB6000B288F6 /* hci_transport_h4.c in Sources */,
+				D70C78941232DB6000B288F6 /* hci_transport_h5.c in Sources */,
+				D70C78951232DB6000B288F6 /* hci_transport_usb.c in Sources */,
+				D70C78961232DB6000B288F6 /* l2cap.c in Sources */,
+				D70C78971232DB6000B288F6 /* l2cap_signaling.c in Sources */,
+				D70C78981232DB6000B288F6 /* linked_list.c in Sources */,
+				D70C789B1232DB6000B288F6 /* platform_iphone.c in Sources */,
+				D70C789C1232DB6000B288F6 /* run_loop.c in Sources */,
+				D70C789D1232DB6000B288F6 /* run_loop_cocoa.m in Sources */,
+				D70C789E1232DB6000B288F6 /* run_loop_embedded.c in Sources */,
+				D70C789F1232DB6000B288F6 /* run_loop_posix.c in Sources */,
+				D70C78A01232DB6000B288F6 /* sdp.c in Sources */,
+				D70C78A11232DB6000B288F6 /* sdp_util.c in Sources */,
+				D70C78A21232DB6000B288F6 /* socket_connection.c in Sources */,
+				D70C78A31232DB6000B288F6 /* utils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +1475,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tips_Prefix.pch;
 				INFOPLIST_FILE = "Tips-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../iPhone Libraries/btstack/3rdparty\"",
+				);
 				PRODUCT_NAME = Tips;
 			};
 			name = Debug;
@@ -354,6 +1491,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tips_Prefix.pch;
 				INFOPLIST_FILE = "Tips-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../iPhone Libraries/btstack/3rdparty\"",
+				);
 				PRODUCT_NAME = Tips;
 				VALIDATE_PRODUCT = YES;
 			};
