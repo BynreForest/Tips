@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TipsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TipsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* Tips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* Tips.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		D70BA9F81210E6BC00C4A7CC /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70BA9F61210E6BC00C4A7CC /* TipViewController.m */; };
+		D70BA9F91210E6BC00C4A7CC /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70BA9F71210E6BC00C4A7CC /* TipViewController.xib */; };
+		D70C74CF1232CF3900B288F6 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C74C51232CF3900B288F6 /* ioapi.c */; };
+		D70C74D01232CF3900B288F6 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C74C71232CF3900B288F6 /* mztools.c */; };
+		D70C74D11232CF3900B288F6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C74C91232CF3900B288F6 /* unzip.c */; };
+		D70C74D21232CF3900B288F6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D70C74CB1232CF3900B288F6 /* zip.c */; };
+		D70C74D31232CF3900B288F6 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = D70C74CE1232CF3900B288F6 /* ZipArchive.mm */; };
+		D70C74DD1232CF5100B288F6 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70C74DC1232CF5100B288F6 /* libz.1.2.3.dylib */; };
+		D7268985120F2BF20037808F /* JSONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7268984120F2BF20037808F /* JSONViewController.xib */; };
+		D7268998120F2D350037808F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7268996120F2D350037808F /* TestViewController.m */; };
+		D7268999120F2D350037808F /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7268997120F2D350037808F /* TestViewController.xib */; };
+		D72E67A51214D408000269F1 /* skinCare.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E67A41214D408000269F1 /* skinCare.png */; };
+		D72E67AB1214DC1C000269F1 /* makeupCare.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E67AA1214DC1C000269F1 /* makeupCare.png */; };
+		D72E67B21214E7D7000269F1 /* misc.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E67B11214E7D7000269F1 /* misc.png */; };
+		D7BE8D79120A599700E3C837 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8D78120A599700E3C837 /* RootViewController.m */; };
+		D7BE8DB2120A653500E3C837 /* TipEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DB1120A653500E3C837 /* TipEntity.m */; };
+		D7BE8DD7120A672100E3C837 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DCC120A672100E3C837 /* NSObject+SBJSON.m */; };
+		D7BE8DD8120A672100E3C837 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DCE120A672100E3C837 /* NSString+SBJSON.m */; };
+		D7BE8DD9120A672100E3C837 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DD0120A672100E3C837 /* SBJSON.m */; };
+		D7BE8DDA120A672100E3C837 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DD2120A672100E3C837 /* SBJsonBase.m */; };
+		D7BE8DDB120A672100E3C837 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DD4120A672100E3C837 /* SBJsonParser.m */; };
+		D7BE8DDC120A672100E3C837 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DD6120A672100E3C837 /* SBJsonWriter.m */; };
+		D7BE8DDF120A67B800E3C837 /* JSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE8DDE120A67B800E3C837 /* JSONViewController.m */; };
+		D7F41FCA1213A6F000C4D966 /* hairCare.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F41FC91213A6F000C4D966 /* hairCare.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TipsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TipsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* Tips.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Tips.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Tips_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tips_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Tips-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tips-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D70BA9F51210E6BC00C4A7CC /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipViewController.h; path = ../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.h; sourceTree = "<group>"; };
+		D70BA9F61210E6BC00C4A7CC /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipViewController.m; path = ../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m; sourceTree = "<group>"; };
+		D70BA9F71210E6BC00C4A7CC /* TipViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TipViewController.xib; path = ../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib; sourceTree = "<group>"; };
+		D70C74C41232CF3900B288F6 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		D70C74C51232CF3900B288F6 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		D70C74C61232CF3900B288F6 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		D70C74C71232CF3900B288F6 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		D70C74C81232CF3900B288F6 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		D70C74C91232CF3900B288F6 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		D70C74CA1232CF3900B288F6 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		D70C74CB1232CF3900B288F6 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		D70C74CC1232CF3900B288F6 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		D70C74CD1232CF3900B288F6 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		D70C74CE1232CF3900B288F6 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		D70C74DC1232CF5100B288F6 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		D7268984120F2BF20037808F /* JSONViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSONViewController.xib; sourceTree = "<group>"; };
+		D7268995120F2D350037808F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D7268996120F2D350037808F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D7268997120F2D350037808F /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		D72E67A41214D408000269F1 /* skinCare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skinCare.png; sourceTree = "<group>"; };
+		D72E67AA1214DC1C000269F1 /* makeupCare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makeupCare.png; sourceTree = "<group>"; };
+		D72E67B11214E7D7000269F1 /* misc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misc.png; sourceTree = "<group>"; };
+		D7BE8D77120A599700E3C837 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D7BE8D78120A599700E3C837 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D7BE8DB0120A653500E3C837 /* TipEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipEntity.h; sourceTree = "<group>"; };
+		D7BE8DB1120A653500E3C837 /* TipEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipEntity.m; sourceTree = "<group>"; };
+		D7BE8DCA120A672100E3C837 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		D7BE8DCB120A672100E3C837 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D7BE8DCC120A672100E3C837 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D7BE8DCD120A672100E3C837 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D7BE8DCE120A672100E3C837 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D7BE8DCF120A672100E3C837 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		D7BE8DD0120A672100E3C837 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		D7BE8DD1120A672100E3C837 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		D7BE8DD2120A672100E3C837 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		D7BE8DD3120A672100E3C837 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		D7BE8DD4120A672100E3C837 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		D7BE8DD5120A672100E3C837 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		D7BE8DD6120A672100E3C837 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D7BE8DDD120A67B800E3C837 /* JSONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONViewController.h; path = ../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.h; sourceTree = SOURCE_ROOT; };
+		D7BE8DDE120A67B800E3C837 /* JSONViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONViewController.m; path = ../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m; sourceTree = SOURCE_ROOT; };
+		D7F41FC91213A6F000C4D966 /* hairCare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hairCare.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				D70C74DD1232CF5100B288F6 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D70C74C21232CF3900B288F6 /* ZipArchive */,
+				D7BE8DC9120A672100E3C837 /* JSON */,
+				1D3623240D0F684500981E51 /* TipsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TipsAppDelegate.m */,
+				D70BA9F51210E6BC00C4A7CC /* TipViewController.h */,
+				D70BA9F61210E6BC00C4A7CC /* TipViewController.m */,
+				D70BA9F71210E6BC00C4A7CC /* TipViewController.xib */,
+				D7BE8DDD120A67B800E3C837 /* JSONViewController.h */,
+				D7BE8DDE120A67B800E3C837 /* JSONViewController.m */,
+				D7BE8D77120A599700E3C837 /* RootViewController.h */,
+				D7BE8D78120A599700E3C837 /* RootViewController.m */,
+				D7268984120F2BF20037808F /* JSONViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Tips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D7268995120F2D350037808F /* TestViewController.h */,
+				D7268996120F2D350037808F /* TestViewController.m */,
+				D7268997120F2D350037808F /* TestViewController.xib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Tips_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7F41FA812139C5B00C4D966 /* images */,
+				2819305F112F816700ECF9B4 /* Tips.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Tips-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				D70C74DC1232CF5100B288F6 /* libz.1.2.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70C74C21232CF3900B288F6 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				D70C74C31232CF3900B288F6 /* minizip */,
+				D70C74CD1232CF3900B288F6 /* ZipArchive.h */,
+				D70C74CE1232CF3900B288F6 /* ZipArchive.mm */,
+			);
+			name = ZipArchive;
+			path = ../../../../../../Downloads/ZipArchive;
+			sourceTree = SOURCE_ROOT;
+		};
+		D70C74C31232CF3900B288F6 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				D70C74C41232CF3900B288F6 /* crypt.h */,
+				D70C74C51232CF3900B288F6 /* ioapi.c */,
+				D70C74C61232CF3900B288F6 /* ioapi.h */,
+				D70C74C71232CF3900B288F6 /* mztools.c */,
+				D70C74C81232CF3900B288F6 /* mztools.h */,
+				D70C74C91232CF3900B288F6 /* unzip.c */,
+				D70C74CA1232CF3900B288F6 /* unzip.h */,
+				D70C74CB1232CF3900B288F6 /* zip.c */,
+				D70C74CC1232CF3900B288F6 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		D7BE8DC9120A672100E3C837 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D7BE8DCA120A672100E3C837 /* JSON.h */,
+				D7BE8DCB120A672100E3C837 /* NSObject+SBJSON.h */,
+				D7BE8DCC120A672100E3C837 /* NSObject+SBJSON.m */,
+				D7BE8DCD120A672100E3C837 /* NSString+SBJSON.h */,
+				D7BE8DCE120A672100E3C837 /* NSString+SBJSON.m */,
+				D7BE8DCF120A672100E3C837 /* SBJSON.h */,
+				D7BE8DD0120A672100E3C837 /* SBJSON.m */,
+				D7BE8DD1120A672100E3C837 /* SBJsonBase.h */,
+				D7BE8DD2120A672100E3C837 /* SBJsonBase.m */,
+				D7BE8DD3120A672100E3C837 /* SBJsonParser.h */,
+				D7BE8DD4120A672100E3C837 /* SBJsonParser.m */,
+				D7BE8DD5120A672100E3C837 /* SBJsonWriter.h */,
+				D7BE8DD6120A672100E3C837 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = ../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON;
+			sourceTree = SOURCE_ROOT;
+		};
+		D7F41FA812139C5B00C4D966 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D72E67B11214E7D7000269F1 /* misc.png */,
+				D72E67AA1214DC1C000269F1 /* makeupCare.png */,
+				D72E67A41214D408000269F1 /* skinCare.png */,
+				D7F41FC91213A6F000C4D966 /* hairCare.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Tips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tips" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tips;
+			productName = Tips;
+			productReference = 1D6058910D05DD3D006BFB54 /* Tips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tips" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Tips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				D7268985120F2BF20037808F /* JSONViewController.xib in Resources */,
+				D7268999120F2D350037808F /* TestViewController.xib in Resources */,
+				D70BA9F91210E6BC00C4A7CC /* TipViewController.xib in Resources */,
+				D7F41FCA1213A6F000C4D966 /* hairCare.png in Resources */,
+				D72E67A51214D408000269F1 /* skinCare.png in Resources */,
+				D72E67AB1214DC1C000269F1 /* makeupCare.png in Resources */,
+				D72E67B21214E7D7000269F1 /* misc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TipsAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* Tips.xcdatamodeld in Sources */,
+				D7BE8D79120A599700E3C837 /* RootViewController.m in Sources */,
+				D7BE8DB2120A653500E3C837 /* TipEntity.m in Sources */,
+				D7BE8DD7120A672100E3C837 /* NSObject+SBJSON.m in Sources */,
+				D7BE8DD8120A672100E3C837 /* NSString+SBJSON.m in Sources */,
+				D7BE8DD9120A672100E3C837 /* SBJSON.m in Sources */,
+				D7BE8DDA120A672100E3C837 /* SBJsonBase.m in Sources */,
+				D7BE8DDB120A672100E3C837 /* SBJsonParser.m in Sources */,
+				D7BE8DDC120A672100E3C837 /* SBJsonWriter.m in Sources */,
+				D7BE8DDF120A67B800E3C837 /* JSONViewController.m in Sources */,
+				D7268998120F2D350037808F /* TestViewController.m in Sources */,
+				D70BA9F81210E6BC00C4A7CC /* TipViewController.m in Sources */,
+				D70C74CF1232CF3900B288F6 /* ioapi.c in Sources */,
+				D70C74D01232CF3900B288F6 /* mztools.c in Sources */,
+				D70C74D11232CF3900B288F6 /* unzip.c in Sources */,
+				D70C74D21232CF3900B288F6 /* zip.c in Sources */,
+				D70C74D31232CF3900B288F6 /* ZipArchive.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tips_Prefix.pch;
+				INFOPLIST_FILE = "Tips-Info.plist";
+				PRODUCT_NAME = Tips;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tips_Prefix.pch;
+				INFOPLIST_FILE = "Tips-Info.plist";
+				PRODUCT_NAME = Tips;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* Tips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7BE8DB0120A653500E3C837 /* TipEntity.h */,
+				D7BE8DB1120A653500E3C837 /* TipEntity.m */,
+				28C3AD890F43EF2300507BA6 /* Tips.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* Tips.xcdatamodel */;
+			path = Tips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
