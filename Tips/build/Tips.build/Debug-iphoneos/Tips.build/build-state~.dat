@@ -1,0 +1,1504 @@
+TTips
+v7
+r0
+t305319782.479513
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Tips.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Info.plist" Tips-Info.plist
+cCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/MainWindow.xib"
+cCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/JSONViewController.xib"
+cCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.xib"
+cCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib"
+cCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/hairCare.png" hairCare.png
+cCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/skinCare.png" skinCare.png
+cCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/makeupCare.png" makeupCare.png
+cCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/misc.png" misc.png
+cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-dyorjsmjootroigiehszmmbhmbiq/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-drmekgwwewloaccbodimalyqmtmq/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips.momd" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld"
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/main.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipsAppDelegate.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/RootViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipEntity.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSObject+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSString+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonBase.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonParser.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonWriter.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/JSONViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TestViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ioapi.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/mztools.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/unzip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/zip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ZipArchive.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/main.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipsAppDelegate.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips" normal armv6
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/RootViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipEntity.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSObject+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSString+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonBase.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonParser.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonWriter.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/JSONViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TestViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ioapi.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/mztools.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/unzip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/zip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ZipArchive.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cLd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips" normal armv7
+cCreateUniversalBinary "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app.dSYM" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips"
+cProcessProductPackaging "/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/3D851724-176C-44A3-B7B6-7BAA8A22B33C.mobileprovision" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/embedded.mobileprovision"
+cTouch "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent"
+cCodeSign "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C7AB3580000000000000110
+t1283109720
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFE083F00000000002F6980
+t1274939455
+s3107200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFE082E000000000000046B
+t1274939438
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
+c000000004BF4D50E0000000000001A3B
+t1274336526
+s6715
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/errno.h
+c000000004BF75A3C00000000000003EB
+t1274501692
+s1003
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/stdio.h
+c000000004BF75A3D00000000000040AC
+t1274501693
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/stdlib.h
+c000000004BF75A3D0000000000002DF5
+t1274501693
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/string.h
+c000000004BF75A3D0000000000001731
+t1274501693
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/time.h
+c000000004BF75A3D000000000000178E
+t1274501693
+s6030
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/zconf.h
+c000000004BFDF16D0000000000002488
+t1274933613
+s9352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/zlib.h
+c000000004BFDF16D00000000000102A5
+t1274933613
+s66213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c000000004BCCA1780000000000003197
+t1271701880
+s12695
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libz.1.2.3.dylib
+c000000004BFDF16F0000000000020FF0
+t1274933615
+s135152
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.h
+c000000004C60BDA300000000000001A3
+t1281408419
+s419
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.h
+c000000004C64BC350000000000000548
+t1281670197
+s1352
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/JSON.h
+c000000004B93BE5E00000000000008F9
+t1267973726
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.h
+c000000004C60BDA300000000000001A3
+t1281408419
+s419
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.h
+c000000004C64BC350000000000000548
+t1281670197
+s1352
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m
+c000000004C712FA000000000000019FC
+t1282486176
+s6652
+i"JSONViewController.h"
+i"JSON.h"
+i"TipEntity.h"
+i"RootViewController.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm
+c000000004ADE7FC50000000000002107
+t1256095685
+s8455
+i"ZipArchive.h"
+i"zlib.h"
+i"zconf.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c
+c0000000049EFE13F0000000000000F1F
+t1240457535
+s3871
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"zlib.h"
+i"ioapi.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c
+c0000000049EFE13F000000000000204A
+t1240457535
+s8266
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"zlib.h"
+i"unzip.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c
+c0000000049EFE13F000000000000C6CA
+t1240457535
+s50890
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"zlib.h"
+i"unzip.h"
+i<stddef.h>
+i<string.h>
+i<stdlib.h>
+i<errno.h>
+i"crypt.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c
+c0000000049EFE13F00000000000096AC
+t1240457535
+s38572
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<time.h>
+i"zlib.h"
+i"zip.h"
+i<stddef.h>
+i<string.h>
+i<stdlib.h>
+i<errno.h>
+i"crypt.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m
+c000000004C60CF11000000000000075F
+t1281412881
+s1887
+i"TipViewController.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib
+c000000004C60B2F90000000000004F64
+t1281405689
+s20324
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/JSONViewController.xib
+c000000004C64C0EE0000000000007E11
+t1281671406
+s32273
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.h
+c000000004C606787000000000000018F
+t1281386375
+s399
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m
+c000000004C60C0FD00000000000015BD
+t1281409277
+s5565
+i"RootViewController.h"
+i"TipEntity.h"
+i"JSONViewController.h"
+i"TipViewController.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.h
+c000000004C64BE680000000000000802
+t1281670760
+s2050
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m
+c000000004C64C0420000000000002194
+t1281671234
+s8596
+i"TipsAppDelegate.h"
+i"RootViewController.h"
+i"JSONViewController.h"
+i"TipEntity.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/MainWindow.xib
+c000000004C5A165F00000000000021B3
+t1280972383
+s8627
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.h
+c000000004C5EF5B500000000000000E6
+t1281291701
+s230
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m
+c000000004C5EF5B500000000000005A0
+t1281291701
+s1440
+i"TestViewController.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.xib
+c000000004C5EF5B50000000000001871
+t1281291701
+s6257
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld
+c000000004C608BA200000000000000CC
+t1281395618
+s204
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.h
+c000000004C608B920000000000000173
+t1281395602
+s371
+i<CoreData/CoreData.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m
+c000000004C608B9800000000000000F6
+t1281395608
+s246
+i"TipEntity.h"
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch
+c000000004C5A165F000000000000015C
+t1280972383
+s348
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app
+t1283626982
+s612
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app.dSYM
+t1283626982
+s102
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Info.plist
+t1283626974
+s714
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/JSONViewController.nib
+t1283626975
+s2649
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/MainWindow.nib
+t1283626975
+s981
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/PkgInfo
+t1283626974
+s8
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/ResourceRules.plist
+t1283626974
+s485
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/TestViewController.nib
+t1283626975
+s764
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/TipViewController.nib
+t1283626976
+s1363
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips
+t1283626982
+s224560
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips.momd
+t1283626979
+s136
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/embedded.mobileprovision
+t1283626982
+s7436
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/hairCare.png
+t1283626976
+s16537
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/makeupCare.png
+t1283626976
+s12475
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/misc.png
+t1283626976
+s14506
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/skinCare.png
+t1283626976
+s14630
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/JSONViewController.o
+t1283626980
+s63200
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1283626979
+s8448
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSString+SBJSON.o
+t1283626979
+s8376
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/RootViewController.o
+t1283626979
+s45388
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJSON.o
+t1283626979
+s18632
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonBase.o
+t1283626979
+s13064
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonParser.o
+t1283626979
+s34744
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonWriter.o
+t1283626979
+s24860
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TestViewController.o
+t1283626979
+s34360
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipEntity.o
+t1283626979
+s5512
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipViewController.o
+t1283626980
+s37984
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips
+t1283626980
+s113992
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips.LinkFileList
+c000000004C8297DE0000000000000A45
+t1283626974
+s2629
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipsAppDelegate.o
+t1283626979
+s63208
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ZipArchive.o
+t1283626980
+s31132
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ioapi.o
+t1283626980
+s7932
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/main.o
+t1283626979
+s6496
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/mztools.o
+t1283626980
+s9588
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/unzip.o
+t1283626980
+s29540
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/zip.o
+t1283626980
+s27772
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/JSONViewController.o
+t1283626981
+s62816
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1283626980
+s8408
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSString+SBJSON.o
+t1283626980
+s8332
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/RootViewController.o
+t1283626980
+s45228
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJSON.o
+t1283626981
+s18384
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonBase.o
+t1283626981
+s12940
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonParser.o
+t1283626981
+s32696
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonWriter.o
+t1283626981
+s24472
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TestViewController.o
+t1283626981
+s34332
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipEntity.o
+t1283626980
+s5512
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipViewController.o
+t1283626981
+s37880
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips
+t1283626982
+s105776
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips.LinkFileList
+c000000004C8297DE0000000000000A45
+t1283626974
+s2629
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipsAppDelegate.o
+t1283626980
+s62964
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ZipArchive.o
+t1283626981
+s30900
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ioapi.o
+t1283626981
+s7748
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/main.o
+t1283626980
+s6480
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/mztools.o
+t1283626981
+s10768
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/unzip.o
+t1283626981
+s27316
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/zip.o
+t1283626981
+s26196
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent
+t1283626982
+s414
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/hairCare.png
+c000000004C636F470000000000003B38
+t1281584967
+s15160
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m
+c000000004C5A165F0000000000000167
+t1280972383
+s359
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/makeupCare.png
+c000000004C64A4890000000000002A7E
+t1281664137
+s10878
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/misc.png
+c000000004C64B0390000000000003337
+t1281667129
+s13111
+
+N/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/skinCare.png
+c000000004C649C3D0000000000002F73
+t1281662013
+s12147
+
+N/Users/brendangaynor/Downloads/ZipArchive/ZipArchive.h
+c000000004ADE80CA0000000000000457
+t1256095946
+s1111
+i<UIKit/UIKit.h>
+i"minizip/zip.h"
+i"minizip/unzip.h"
+
+N/Users/brendangaynor/Downloads/ZipArchive/minizip/crypt.h
+c0000000049EFE13F00000000000012EC
+t1240457535
+s4844
+
+N/Users/brendangaynor/Downloads/ZipArchive/minizip/ioapi.h
+c0000000049EFE13F0000000000000A32
+t1240457535
+s2610
+
+N/Users/brendangaynor/Downloads/ZipArchive/minizip/unzip.h
+c0000000049EFE13F000000000000340A
+t1240457535
+s13322
+i"zlib.h"
+i"ioapi.h"
+
+N/Users/brendangaynor/Downloads/ZipArchive/minizip/zip.h
+c0000000049EFE13F000000000000237A
+t1240457535
+s9082
+i"zlib.h"
+i"ioapi.h"
+
+N/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/3D851724-176C-44A3-B7B6-7BAA8A22B33C.mobileprovision
+c000000004C7E670F0000000000001D0C
+t1283352335
+s7436
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch.gch
+t1283626978
+s10852588
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch.gch
+t1283626977
+s1741084
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-drmekgwwewloaccbodimalyqmtmq/Tips_Prefix.pch.gch
+t1283626978
+s11450492
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-dyorjsmjootroigiehszmmbhmbiq/Tips_Prefix.pch.gch
+t1283626977
+s11008124
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch.gch
+t1283626976
+s1278236
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch.gch
+t1283626977
+s10381548
+
+NTips-Info.plist
+c000000004C5A165F000000000000038D
+t1280972383
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305319774#305319774#0(0"0(0#1#0"8614635616#0"0#
+
+CCodeSign "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"
+s305319782.169648
+e305319782.479470
+r1
+xCodeSign
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Tips.app305319782#305319782#0(0"0(0#0#97"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app8624258048#759"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Brendan Gaynor (ZQ2BC5DZ4J)" "--resource-rules=/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/ResourceRules.plist" --entitlements "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/JSONViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.826315
+e305319780.040212
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/JSONViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m: In function '-[JSONViewController buttonPressed:]':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m:91: warning: format not a string literal and no format arguments
+lSLF07#2@152"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m305319779#305319780#0(408"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m: In function '-[JSONViewController buttonPressed:]':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m:91: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments305319779#198#210#0(6@144"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m304178976#91#0#91#0#51"format not a string literal and no format arguments0(0#0#144"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m8621845600#2089"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/JSONViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSObject+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.219662
+e305319779.374944
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m305319779#305319779#0(0"0(0#0#146"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m8621594304#2088"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSObject+SBJSON.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSString+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.312346
+e305319779.606365
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m305319779#305319779#0(0"0(0#0#146"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m8624012896#2088"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/NSString+SBJSON.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/RootViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.103144
+e305319779.219545
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/RootViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m305319779#305319779#0(0"0(0#0#96"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m8625112320#2041"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.375070
+e305319779.713840
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJSON.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m305319779#305319779#0(0"0(0#0#137"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m8622495424#2070"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJSON.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonBase.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.606536
+e305319779.695093
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@149"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m305319779#305319779#0(0"0(0#0#141"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m8623555936#2078"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonBase.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonParser.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.695207
+e305319779.889479
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m305319779#305319779#0(0"0(0#0#143"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m8606075936#2082"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonParser.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonWriter.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.713955
+e305319779.826201
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m305319779#305319779#0(0"0(0#0#143"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m8606242272#2082"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/SBJsonWriter.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TestViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.889601
+e305319779.967518
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TestViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m305319779#305319779#0(0"0(0#0#88"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m8624104352#2033"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TestViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipEntity.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.201905
+e305319779.312229
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipEntity.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m305319779#305319779#0(0"0(0#0#97"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m8622672864#2033"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipEntity.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.967628
+e305319780.087363
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@167"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m305319779#305319780#0(0"0(0#0#159"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m8615410240#2103"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipsAppDelegate.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319779.060317
+e305319779.201794
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipsAppDelegate.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m: In function '-[TipsAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m:53: warning: unused variable 'bar'
+lSLF07#2@101"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m305319779#305319779#0(301"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m: In function '-[TipsAppDelegate application:didFinishLaunchingWithOptions:]':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m:53: warning: unused variable 'bar'1(22@21"Unused variable 'bar'305319779#172#129#0(6@93"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m303364034#53#0#53#0#19"unused variable '*'0(0#0#93"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m8622110496#2035"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/TipsAppDelegate.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ZipArchive.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s305319780.382518
+e305319780.552330
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ZipArchive.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive addFileToZip:newname:](ZipArchive*, objc_selector*, NSString*, NSString*)':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:68: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipOpenFile:](ZipArchive*, objc_selector*, NSString*)':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:160: warning: format not a string literal and no format arguments
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipFileTo:overWrite:](ZipArchive*, objc_selector*, NSString*, BOOL)':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:210: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)
+lSLF07#2@128"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm305319780#305319780#0(1520"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive addFileToZip:newname:](ZipArchive*, objc_selector*, NSString*, NSString*)':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:68: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipOpenFile:](ZipArchive*, objc_selector*, NSString*)':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:160: warning: format not a string literal and no format arguments/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipFileTo:overWrite:](ZipArchive*, objc_selector*, NSString*, BOOL)':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:210: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)3(22@209"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)305319780#229#344#0(6@120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm277788485#68#0#68#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments305319780#784#187#0(6@120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm277788485#160#0#160#0#51"format not a string literal and no format arguments0(22@188"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)305319780#1196#324#0(6@120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm277788485#210#0#210#0#33"'*' is deprecated (declared at *)0(0#0#120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm8623017792#2078"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-dyorjsmjootroigiehszmmbhmbiq/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ZipArchive.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ioapi.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c" normal armv6 c com.apple.compilers.gcc.4_2
+s305319780.040317
+e305319780.158487
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ioapi.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c305319780#305319780#0(0"0(0#0#122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c8624085888#2044"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/ioapi.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/main.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319778.974520
+e305319779.060205
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/main.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m305319778#305319779#0(0"0(0#0#74"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m8599442080#2005"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/mztools.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c" normal armv6 c com.apple.compilers.gcc.4_2
+s305319780.087474
+e305319780.208015
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/mztools.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c305319780#305319780#0(0"0(0#0#124"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c8622398976#2048"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/mztools.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/unzip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c" normal armv6 c com.apple.compilers.gcc.4_2
+s305319780.158590
+e305319780.382413
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/unzip.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c: In function 'unzGetGlobalComment':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c:1537: warning: unused variable 'err'
+lSLF07#2@130"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c305319780#305319780#0(319"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c: In function 'unzGetGlobalComment':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c:1537: warning: unused variable 'err'1(22@21"Unused variable 'err'305319780#159#160#0(6@122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c262150335#1537#0#1537#0#19"unused variable '*'0(0#0#122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c8624258304#2044"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/unzip.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/zip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c" normal armv6 c com.apple.compilers.gcc.4_2
+s305319780.208128
+e305319780.391966
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/zip.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c305319780#305319780#0(0"0(0#0#120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c8622969728#2040"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/zip.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/JSONViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319781.278240
+e305319781.468454
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/JSONViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m: In function '-[JSONViewController buttonPressed:]':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m:91: warning: format not a string literal and no format arguments
+lSLF07#2@152"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m305319781#305319781#0(408"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m: In function '-[JSONViewController buttonPressed:]':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m:91: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments305319781#198#210#0(6@144"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m304178976#91#0#91#0#51"format not a string literal and no format arguments0(0#0#144"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m8599914784#2089"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSONViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/JSONViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSObject+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.791840
+e305319780.969596
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m305319780#305319781#0(0"0(0#0#146"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m8621699168#2088"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSObject+SBJSON.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSObject+SBJSON.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSString+SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.910513
+e305319780.998231
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m305319780#305319781#0(0"0(0#0#146"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m8604237312#2088"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/NSString+SBJSON.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/NSString+SBJSON.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/RootViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.619365
+e305319780.731930
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/RootViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m305319780#305319780#0(0"0(0#0#96"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m8621739968#2041"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/RootViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJSON.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.969715
+e305319781.154655
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJSON.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m305319780#305319781#0(0"0(0#0#137"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m8621481760#2070"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJSON.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJSON.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonBase.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.998339
+e305319781.083977
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@149"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m305319780#305319781#0(0"0(0#0#141"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m8603921824#2078"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonBase.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonBase.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonParser.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319781.084098
+e305319781.289528
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m305319781#305319781#0(0"0(0#0#143"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m8622599968#2082"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonParser.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonParser.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonWriter.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319781.154762
+e305319781.278130
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m305319781#305319781#0(0"0(0#0#143"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m8621818816#2082"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/SBJsonWriter.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/SBJsonWriter.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TestViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319781.289636
+e305319781.380088
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TestViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m305319781#305319781#0(0"0(0#0#88"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m8603988160#2033"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TestViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipEntity.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.732133
+e305319780.791694
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipEntity.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m305319780#305319780#0(0"0(0#0#97"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m8624621920#2033"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld/TipEntity.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipEntity.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipViewController.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319781.380207
+e305319781.463814
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipViewController.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@167"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m305319781#305319781#0(0"0(0#0#159"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m8615813216#2103"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipViewController.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipsAppDelegate.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.487552
+e305319780.619260
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipsAppDelegate.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m: In function '-[TipsAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m:53: warning: unused variable 'bar'
+lSLF07#2@101"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m305319780#305319780#0(301"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m: In function '-[TipsAppDelegate application:didFinishLaunchingWithOptions:]':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m:53: warning: unused variable 'bar'1(22@21"Unused variable 'bar'305319780#172#129#0(6@93"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m303364034#53#0#53#0#19"unused variable '*'0(0#0#93"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m8606473120#2035"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/TipsAppDelegate.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/TipsAppDelegate.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ZipArchive.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s305319781.714176
+e305319781.835866
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ZipArchive.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive addFileToZip:newname:](ZipArchive*, objc_selector*, NSString*, NSString*)':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:68: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipOpenFile:](ZipArchive*, objc_selector*, NSString*)':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:160: warning: format not a string literal and no format arguments
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipFileTo:overWrite:](ZipArchive*, objc_selector*, NSString*, BOOL)':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:210: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)
+lSLF07#2@128"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm305319781#305319781#0(1520"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive addFileToZip:newname:](ZipArchive*, objc_selector*, NSString*, NSString*)':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:68: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipOpenFile:](ZipArchive*, objc_selector*, NSString*)':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:160: warning: format not a string literal and no format arguments/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm: In function 'BOOL -[ZipArchive UnzipFileTo:overWrite:](ZipArchive*, objc_selector*, NSString*, BOOL)':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm:210: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)3(22@209"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)305319781#229#344#0(6@120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm277788485#68#0#68#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments305319781#784#187#0(6@120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm277788485#160#0#160#0#51"format not a string literal and no format arguments0(22@188"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:390)305319781#1196#324#0(6@120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm277788485#210#0#210#0#33"'*' is deprecated (declared at *)0(0#0#120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm8621674656#2078"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-drmekgwwewloaccbodimalyqmtmq/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/ZipArchive.mm" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ZipArchive.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ioapi.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c" normal armv7 c com.apple.compilers.gcc.4_2
+s305319781.463927
+e305319781.546608
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ioapi.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c305319781#305319781#0(0"0(0#0#122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c8623981408#2044"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/ioapi.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/ioapi.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/main.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319780.394314
+e305319780.487134
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/main.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m305319780#305319780#0(0"0(0#0#74"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m8621990208#2005"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/main.m" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/main.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/mztools.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c" normal armv7 c com.apple.compilers.gcc.4_2
+s305319781.468558
+e305319781.586561
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/mztools.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c305319781#305319781#0(0"0(0#0#124"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c8622591008#2048"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/mztools.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/mztools.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/unzip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c" normal armv7 c com.apple.compilers.gcc.4_2
+s305319781.546709
+e305319781.714073
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/unzip.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c: In function 'unzGetGlobalComment':
+o/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c:1537: warning: unused variable 'err'
+lSLF07#2@130"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c305319781#305319781#0(319"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c: In function 'unzGetGlobalComment':/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c:1537: warning: unused variable 'err'1(22@21"Unused variable 'err'305319781#159#160#0(6@122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c262150335#1537#0#1537#0#19"unused variable '*'0(0#0#122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c8624133888#2044"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/unzip.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/unzip.o"0#
+
+CCompileC build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/zip.o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c" normal armv7 c com.apple.compilers.gcc.4_2
+s305319781.586669
+e305319781.757453
+r1
+xCompileC
+xbuild/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/zip.o
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c305319781#305319781#0(0"0(0#0#120"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c8622408736#2040"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/../../../../../../Downloads/ZipArchive/minizip/zip.c" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/zip.o"0#
+
+CCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib"
+s305319775.472523
+e305319776.106806
+r1
+xCompileXIB
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib
+lSLF07#2@104"CompileXIB Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib305319775#305319776#0(0"0(0#0#161"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib8623273504#718"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/TipViewController.nib" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/../../../../../../../Desktop/WhoNeedsPractice/JSON/Classes/JSON/TipViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/JSONViewController.xib"
+s305319774.781745
+e305319775.472421
+r1
+xCompileXIB
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/JSONViewController.xib
+lSLF07#2@41"CompileXIB Classes/JSONViewController.xib305319774#305319775#0(0"0(0#0#98"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/JSONViewController.xib8624099648#656"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/JSONViewController.nib" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Classes/JSONViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/MainWindow.xib"
+s305319774.780827
+e305319775.375923
+r1
+xCompileXIB
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib305319774#305319775#0(0"0(0#0#82"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/MainWindow.xib8625306272#632"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/MainWindow.nib" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.xib"
+s305319775.376029
+e305319775.944231
+r1
+xCompileXIB
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.xib
+lSLF07#2@33"CompileXIB TestViewController.xib305319775#305319775#0(0"0(0#0#90"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.xib8624759168#648"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/TestViewController.nib" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/TestViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/hairCare.png" hairCare.png
+s305319775.944342
+e305319776.026916
+r1
+xCopyPNGFile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/hairCare.png
+xhairCare.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Tips.app/hairCare.png hairCare.png305319775#305319776#0(0"0(0#0#80"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/hairCare.png8625346400#654"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/hairCare.png" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/hairCare.png"0#
+
+CCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/makeupCare.png" makeupCare.png
+s305319776.069345
+e305319776.112661
+r1
+xCopyPNGFile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/makeupCare.png
+xmakeupCare.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Tips.app/makeupCare.png makeupCare.png305319776#305319776#0(0"0(0#0#82"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/makeupCare.png8625074400#658"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/makeupCare.png" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/makeupCare.png"0#
+
+CCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/misc.png" misc.png
+s305319776.106906
+e305319776.146481
+r1
+xCopyPNGFile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/misc.png
+xmisc.png
+lSLF07#2@59"CopyPNGFile build/Debug-iphoneos/Tips.app/misc.png misc.png305319776#305319776#0(0"0(0#0#76"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/misc.png8605764768#646"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/misc.png" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/misc.png"0#
+
+CCopyPNGFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/skinCare.png" skinCare.png
+s305319776.027030
+e305319776.069238
+r1
+xCopyPNGFile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/skinCare.png
+xskinCare.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Tips.app/skinCare.png skinCare.png305319776#305319776#0(0"0(0#0#80"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/skinCare.png8625285920#654"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/skinCare.png" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/skinCare.png"0#
+
+CCpResource build/Debug-iphoneos/Tips.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s305319774.757730
+e305319774.780354
+r1
+xCpResource
+xbuild/Debug-iphoneos/Tips.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist305319774#305319774#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8626166720#539"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"0#
+
+CCreateUniversalBinary "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips" normal "armv6 armv7"
+s305319782.052591
+e305319782.060776
+r1
+xCreateUniversalBinary
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Debug-iphoneos/Tips.app/Tips normal "armv6 armv7"305319782#305319782#0(0"0(0#0#79"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/armv6 armv78621800288#618"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips" -output "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips"0#
+
+CDataModelVersionCompile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips.momd" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld"
+s305319778.972999
+e305319779.103034
+r1
+xDataModelVersionCompile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips.momd
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld
+lSLF07#2@81"DataModelVersionCompile build/Debug-iphoneos/Tips.app/Tips.momd Tips.xcdatamodeld305319778#305319779#0(0"0(0#0#85"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld8605985760#427"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips.xcdatamodeld" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips.momd"0#
+
+CGenerateDSYMFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app.dSYM" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips"
+s305319782.060884
+e305319782.131087
+r1
+xGenerateDSYMFile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app.dSYM
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Tips.app.dSYM build/Debug-iphoneos/Tips.app/Tips305319782#305319782#0(0"0(0#0#102"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips8621314528#446"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Tips" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app.dSYM"0#
+
+CLd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips" normal armv6
+s305319780.552423
+e305319780.910390
+r1
+xLd
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips
+xnormal
+xarmv6
+lSLF07#2@141"Link /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips305319780#305319780#0(0"0(0#0#0"8623370368#1026"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" -filelist "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lz.1.2.3 -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv6/Tips"0#
+
+CLd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips" normal armv7
+s305319781.835970
+e305319782.052354
+r1
+xLd
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips
+xnormal
+xarmv7
+lSLF07#2@141"Link /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips305319781#305319782#0(0"0(0#0#0"8623188672#1026"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" -filelist "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lz.1.2.3 -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Objects-normal/armv7/Tips"0#
+
+CProcessInfoPlistFile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Info.plist" Tips-Info.plist
+s305319774.765573
+e305319774.780743
+r1
+xProcessInfoPlistFile
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Info.plist
+xTips-Info.plist
+lSLF07#2@23"Process Tips-Info.plist305319774#305319774#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips-Info.plist8621025248#674"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tips-Info.plist -genpkginfo "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/ResourceRules.plist" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/Info.plist"0#
+
+CProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305319777.083304
+e305319778.086814
+r1
+xProcessPCH
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch.gch
+xTips_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Tips_Prefix.pch305319777#305319778#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch8606454752#1875"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch" -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-avwsuwgrlnxdeogunjenfcjylesz/Tips_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s305319777.915359
+e305319777.996410
+r1
+xProcessPCH
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch.gch
+xTips_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Tips_Prefix.pch305319777#305319777#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch8624422656#1865"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch" -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-cobgancewxiloadyyowfpralxvqv/Tips_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s305319776.148445
+e305319776.204198
+r1
+xProcessPCH
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch.gch
+xTips_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Tips_Prefix.pch305319776#305319776#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch8623767328#1865"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch" -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-eyyhxxbzvumtisfvryipqobbgyds/Tips_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305319776.146604
+e305319777.083042
+r1
+xProcessPCH
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch.gch
+xTips_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Tips_Prefix.pch305319776#305319777#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch8624136864#1875"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch" -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-guttgmkeinpfmeawcubrevaguylv/Tips_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-drmekgwwewloaccbodimalyqmtmq/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s305319777.996537
+e305319778.972657
+r1
+xProcessPCH++
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-drmekgwwewloaccbodimalyqmtmq/Tips_Prefix.pch.gch
+xTips_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Tips_Prefix.pch305319777#305319778#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch8623443744#1896"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv7" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch" -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-drmekgwwewloaccbodimalyqmtmq/Tips_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-dyorjsmjootroigiehszmmbhmbiq/Tips_Prefix.pch.gch Tips_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s305319776.204317
+e305319777.915193
+r1
+xProcessPCH++
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-dyorjsmjootroigiehszmmbhmbiq/Tips_Prefix.pch.gch
+xTips_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Tips_Prefix.pch305319776#305319777#0(0"0(0#0#83"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch8623169952#1896"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-generated-files.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-own-target-headers.hmap" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-all-target-headers.hmap" -iquote "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips-project-headers.hmap" "-F/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/include" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources/armv6" "-I/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/DerivedSources" -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/Tips_Prefix.pch" -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tips_Prefix-dyorjsmjootroigiehszmmbhmbiq/Tips_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/3D851724-176C-44A3-B7B6-7BAA8A22B33C.mobileprovision" "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/embedded.mobileprovision"
+s305319782.131198
+e305319782.143432
+r1
+xProcessProductPackaging
+x/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/3D851724-176C-44A3-B7B6-7BAA8A22B33C.mobileprovision
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/3D851724-176C-44A3-B7B6-7BAA8A22B33C.mobileprovision" build/Debug-iphoneos/Tips.app/embedded.mobileprovision305319782#305319782#0(0"0(0#0#122"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/embedded.mobileprovision8600554496#490"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/3D851724-176C-44A3-B7B6-7BAA8A22B33C.mobileprovision" -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent"
+s305319782.147782
+e305319782.169560
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent305319782#305319782#0(0"0(0#0#121"/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent8600972416#485"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Tips.build/Debug-iphoneos/Tips.build/Tips.xcent"0#
+
+CTouch "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"
+s305319782.143513
+e305319782.147673
+r1
+xTouch
+x/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app
+lSLF07#2@103"Touch /Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app305319782#305319782#0(0"0(0#0#0"8612795200#323"    cd "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/brendangaynor/Documents/clients/iphone/saffit/Tips Repo/Tips/build/Debug-iphoneos/Tips.app"0#
+
